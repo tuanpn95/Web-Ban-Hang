@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Category</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="Public"> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="./js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./js/countdown.js"></script>
+    <script src="./js/app.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css"
+    />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./js/owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./js/owlcarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/category.css" />
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="container padding-non">
+        <img src="./images/banner.jpg" alt="bannner"/>
+      </div>
+    </div>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <span class="logo">
+          <a href="#" title="">
+            <img src="images/logo.png" alt="" title="" />
+          </a>
+        </span>
+
+        <div class="mobile-component">
+          <div class="search_icon_wrapper mar-mb">
+            <a href="tel: " class="hotline">
+              <i class="fa fa-phone"></i>
+              0919.619.123
+            </a>
+          </div>
+        </div>
+
+        <!--Search Tool-->
+        <div class="search_form">
+          <div class="search_box">
+            <input
+              class="inputSearch"
+              placeholder="Nhập tên sản phẩm"
+              name="keyword"
+              type="text"
+              id="keyword"
+              value=""
+              autocomplete="off"
+            />
+            <button class="btn-search">
+              <i class="fa fa-search"></i>
+              <span>Tìm kiếm</span>
+            </button>
+            <a href="javascript: void(0);" class="cart mobile-component">
+              <i class="fa fa-cart-plus"> </i>
+              <span id="sp_total_product_in_cart_header">0</span>
+            </a>
+          </div>
+
+          <div class="search_icon_wrapper mar-mb">
+            <a href="javascript: void(0);" class="cart">
+              <i class="fa fa-cart-plus"> </i>Giỏ Hàng
+              <span id="sp_total_product_in_cart_header">0</span>
+            </a>
+            <a href="tel: " class="hotline">
+              <span>Liên hệ</span>
+              0919.619.123
+            </a>
+          </div>
+
+          <div class="header-search-link">
+            <div class="title_search">Tìm nhanh:</div>
+            <ul>
+              <li><a href="#" target="_blank">Cưa máy 1</a></li>
+              <li><a href="#" target="_blank">Cưa máy 2</a></li>
+              <li><a href="#" target="_blank">Cưa máy 2</a></li>
+              <li><a href="#" target="_blank">Cưa máy 2</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- navigation -->
+    <div class="main-navigation">
+      <div class="container padding-non">
+        <div class="mainbox">
+          <div class="main-menu">
+            <i class="fa fa-align-justify"></i>
+            <span>Tất cả Danh mục</span>
+          </div>
+          <nav class="main-category">
+            <ul>
+              <li>
+                <a>Trang chủ</a>
+              </li>
+              <li>
+                <a>Giới thiệu</a>
+              </li>
+              <li>
+                <a class="has-sub-menu">Dụng cụ sửa chữa</a>
+                <div class="sub-menu">
+                  <aside>
+                    <span class="has-sub-menu">Máy-Dụng cụ cầm tay</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Dụng cụ cầm tay sử dụng Điện</a>
+                      </li>
+                      <li>
+                        <a href="#">Dụng cụ cầm tay sử dụng Pin</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Công cụ cầm tay</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Khóa vòm miệng</a>
+                      </li>
+                      <li>
+                        <a href="#">Mỏ lết</a>
+                      </li>
+                      <li>
+                        <a href="#">Cần siết lực</a>
+                      </li>
+                      <li>
+                        <a href="#">Tuốc nơ vít</a>
+                      </li>
+                      <li>
+                        <a href="#">Bộ dụng cụ vặn vít</a>
+                      </li>
+                      <li>
+                        <a href="#">Kềm các loại</a>
+                      </li>
+                      <li>
+                        <a href="#">Eto kẹp</a>
+                      </li>
+                      <li>
+                        <a href="#">Cảo dụng cụ</a>
+                      </li>
+                      <li>
+                        <a href="#">Các loại gá</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Dụng cụ đo</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Thước kẹp cơ</a>
+                      </li>
+                      <li>
+                        <a href="#">Thước kẹp điện tử</a>
+                      </li>
+                      <li>
+                        <a href="#">Panme đo trong</a>
+                      </li>
+                      <li>
+                        <a href="#">Panme đo ngoài</a>
+                      </li>
+                      <li>
+                        <a href="#">Panme đo lỗ sâu</a>
+                      </li>
+                      <li>
+                        <a href="#">Thước dây</a>
+                      </li>
+                      <li>
+                        <a href="#">Thước kéo</a>
+                      </li>
+                      <li>
+                        <a href="#">Thước ê ke</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+              </li>
+              <li>
+                <a class="has-sub-menu">Thiết bị thay thế</a>
+                <div class="sub-menu">
+                  <aside>
+                    <span class="has-sub-menu">Thiết bị cơ khí</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Vòng bi</a>
+                      </li>
+                      <li>
+                        <a href="#">Gối đỡ</a>
+                      </li>
+                      <li>
+                        <a href="#">Thanh trượt</a>
+                      </li>
+                      <li>
+                        <a href="#">Ray trượt</a>
+                      </li>
+                      <li>
+                        <a href="#">Dây curoa</a>
+                      </li>
+                      <li>
+                        <a href="#">Puly</a>
+                      </li>
+                      <li>
+                        <a href="#">Nhông xích công nghiệp</a>
+                      </li>
+                      <li>
+                        <a href="#">Khớp nối trục và khóa trục</a>
+                      </li>
+                      <li>
+                        <a href="#">Phốt dầu, phốt xilanh</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Thiết bị điện</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Biến tần và khởi động mềm</a>
+                      </li>
+                      <li>
+                        <a href="#">Thiết bị đóng cắt</a>
+                      </li>
+                      <li>
+                        <a href="#">Cảm biến</a>
+                      </li>
+                      <li>
+                        <a href="#">Thiết bị điều khiển và hiển thị</a>
+                      </li>
+                     
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Khí nén và thủy lực</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Van khí nén</a>
+                      </li>
+                      <li>
+                        <a href="#">Xilanh</a>
+                      </li>
+                      <li>
+                        <a href="#">Các thiết bị điều khiển</a>
+                      </li>
+                      <li>
+                        <a href="#">Phụ kiện khí nén</a>
+                      </li>
+                      <li>
+                        <a href="#">Ống hơi</a>
+                      </li>
+                      <li>
+                        <a href="#">Van thủy lực</a>
+                      </li>
+                      <li>
+                        <a href="#">Ống thủy lực</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+              </li>
+              <li>
+                <a class="has-sub-menu">Vật tư tiêu hao</a>
+                <div class="sub-menu">
+                  <aside>
+                    <span class="has-sub-menu">Vật tư gia công</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Đá mài</a>
+                      </li>
+                      <li>
+                        <a href="#">Đá cắt</a>
+                      </li>
+                      <li>
+                        <a href="#">Mũi khoan</a>
+                      </li>
+                      <li>
+                        <a href="#">Mũi Taro</a>
+                      </li>
+                      <li>
+                        <a href="#">Lưỡi cắt</a>
+                      </li>
+                      <li>
+                        <a href="#">Lưỡi cưa</a>
+                      </li>
+                   
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Bu long và ốc vít</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Bu lông cường độ cao</a>
+                      </li>
+                      <li>
+                        <a href="#">Bu lông neo các loại</a>
+                      </li>
+                      <li>
+                        <a href="#">Vít bắn tôn</a>
+                      </li>
+                      <li>
+                        <a href="#">Vít mạ kẽm</a>
+                      </li>
+                      <li>
+                        <a href="#">Vít inox</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Vật tư ống nước</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Ống inox</a>
+                      </li>
+                      <li>
+                        <a href="#">Ống kẻm</a>
+                      </li>
+                      <li>
+                        <a href="#">Ống nhựa PVC</a>
+                      </li>
+                      <li>
+                        <a href="#">Van hơi nóng</a>
+                      </li>
+                      <li>
+                        <a href="#">Van cầu</a>
+                      </li>
+                      <li>
+                        <a href="#">Van bướm</a>
+                      </li>
+                      <li>
+                        <a href="#">Van bằng gang</a>
+                      </li>
+                      <li>
+                        <a href="#">Van inox</a>
+                      </li>
+                      <li>
+                        <a href="#">Keo dán ống</a>
+                      </li>
+                      <li>
+                        <a href="#">Băng keo non</a>
+                      </li>
+                      <li>
+                        <a href="#">Co, cút, tê</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Dầu và chất tẩy rửa</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Dầu thủy lực</a>
+                      </li>
+                      <li>
+                        <a href="#">Dầu bánh răng</a>
+                      </li>
+                      <li>
+                        <a href="#">Dầu máy khí nén</a>
+                      </li>
+                      <li>
+                        <a href="#">Chất làm sạch và chống gỉ</a>
+                      </li>
+                      <li>
+                        <a href="#">Chất bảo vệ bề mặt gia công</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+              </li>
+            </ul>
+          </nav>
+      
+          <nav class="menu-mobile">
+            <ul>
+              <li>
+                <a><span>Trang chủ</span></a>
+              </li>
+              <li>
+                <a><span>Giới thiệu</span></a>
+              </li>
+              <li>
+                <span class="has-sub-menu">Dụng cụ sửa chữa </span>
+                <div class="sub-menu">
+                  <aside>
+                    <span class="has-sub-menu">Máy-Dụng cụ cầm tay</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Dụng cụ cầm tay sử dụng Điện</a>
+                      </li>
+                      <li>
+                        <a href="#">Dụng cụ cầm tay sử dụng Pin</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Công cụ cầm tay</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Khóa vòm miệng</a>
+                      </li>
+                      <li>
+                        <a href="#">Mỏ lết</a>
+                      </li>
+                      <li>
+                        <a href="#">Cần siết lực</a>
+                      </li>
+                      <li>
+                        <a href="#">Tuốc nơ vít</a>
+                      </li>
+                      <li>
+                        <a href="#">Bộ dụng cụ vặn vít</a>
+                      </li>
+                      <li>
+                        <a href="#">Kềm các loại</a>
+                      </li>
+                      <li>
+                        <a href="#">Eto kẹp</a>
+                      </li>
+                      <li>
+                        <a href="#">Cảo dụng cụ</a>
+                      </li>
+                      <li>
+                        <a href="#">Các loại gá</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Dụng cụ đo</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Thước kẹp cơ</a>
+                      </li>
+                      <li>
+                        <a href="#">Thước kẹp điện tử</a>
+                      </li>
+                      <li>
+                        <a href="#">Panme đo trong</a>
+                      </li>
+                      <li>
+                        <a href="#">Panme đo ngoài</a>
+                      </li>
+                      <li>
+                        <a href="#">Panme đo lỗ sâu</a>
+                      </li>
+                      <li>
+                        <a href="#">Thước dây</a>
+                      </li>
+                      <li>
+                        <a href="#">Thước kéo</a>
+                      </li>
+                      <li>
+                        <a href="#">Thước ê ke</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+              </li>
+              <li>
+                <span class="has-sub-menu">Thiết bị thay thế</span>
+                <div class="sub-menu">
+                  <aside>
+                    <span class="has-sub-menu">Thiết bị cơ khí</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Vòng bi</a>
+                      </li>
+                      <li>
+                        <a href="#">Gối đỡ</a>
+                      </li>
+                      <li>
+                        <a href="#">Thanh trượt</a>
+                      </li>
+                      <li>
+                        <a href="#">Ray trượt</a>
+                      </li>
+                      <li>
+                        <a href="#">Dây curoa</a>
+                      </li>
+                      <li>
+                        <a href="#">Puly</a>
+                      </li>
+                      <li>
+                        <a href="#">Nhông xích công nghiệp</a>
+                      </li>
+                      <li>
+                        <a href="#">Khớp nối trục và khóa trục</a>
+                      </li>
+                      <li>
+                        <a href="#">Phốt dầu, phốt xilanh</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Thiết bị điện</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Biến tần và khởi động mềm</a>
+                      </li>
+                      <li>
+                        <a href="#">Thiết bị đóng cắt</a>
+                      </li>
+                      <li>
+                        <a href="#">Cảm biến</a>
+                      </li>
+                      <li>
+                        <a href="#">Thiết bị điều khiển và hiển thị</a>
+                      </li>
+                     
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Khí nén và thủy lực</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Van khí nén</a>
+                      </li>
+                      <li>
+                        <a href="#">Xilanh</a>
+                      </li>
+                      <li>
+                        <a href="#">Các thiết bị điều khiển</a>
+                      </li>
+                      <li>
+                        <a href="#">Phụ kiện khí nén</a>
+                      </li>
+                      <li>
+                        <a href="#">Ống hơi</a>
+                      </li>
+                      <li>
+                        <a href="#">Van thủy lực</a>
+                      </li>
+                      <li>
+                        <a href="#">Ống thủy lực</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+              </li>
+              <li>
+                <span class="has-sub-menu">Vật tư tiêu hao</span>
+                <div class="sub-menu">
+                  <aside>
+                    <span class="has-sub-menu">Vật tư gia công</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Đá mài</a>
+                      </li>
+                      <li>
+                        <a href="#">Đá cắt</a>
+                      </li>
+                      <li>
+                        <a href="#">Mũi khoan</a>
+                      </li>
+                      <li>
+                        <a href="#">Mũi Taro</a>
+                      </li>
+                      <li>
+                        <a href="#">Lưỡi cắt</a>
+                      </li>
+                      <li>
+                        <a href="#">Lưỡi cưa</a>
+                      </li>
+                   
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Bu long và ốc vít</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Bu lông cường độ cao</a>
+                      </li>
+                      <li>
+                        <a href="#">Bu lông neo các loại</a>
+                      </li>
+                      <li>
+                        <a href="#">Vít bắn tôn</a>
+                      </li>
+                      <li>
+                        <a href="#">Vít mạ kẽm</a>
+                      </li>
+                      <li>
+                        <a href="#">Vít inox</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Vật tư ống nước</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Ống inox</a>
+                      </li>
+                      <li>
+                        <a href="#">Ống kẻm</a>
+                      </li>
+                      <li>
+                        <a href="#">Ống nhựa PVC</a>
+                      </li>
+                      <li>
+                        <a href="#">Van hơi nóng</a>
+                      </li>
+                      <li>
+                        <a href="#">Van cầu</a>
+                      </li>
+                      <li>
+                        <a href="#">Van bướm</a>
+                      </li>
+                      <li>
+                        <a href="#">Van bằng gang</a>
+                      </li>
+                      <li>
+                        <a href="#">Van inox</a>
+                      </li>
+                      <li>
+                        <a href="#">Keo dán ống</a>
+                      </li>
+                      <li>
+                        <a href="#">Băng keo non</a>
+                      </li>
+                      <li>
+                        <a href="#">Co, cút, tê</a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <aside>
+                    <span class="has-sub-menu">Dầu và chất tẩy rửa</span>
+                    <ul class="child-menu">
+                      <li>
+                        <a href="#">Dầu thủy lực</a>
+                      </li>
+                      <li>
+                        <a href="#">Dầu bánh răng</a>
+                      </li>
+                      <li>
+                        <a href="#">Dầu máy khí nén</a>
+                      </li>
+                      <li>
+                        <a href="#">Chất làm sạch và chống gỉ</a>
+                      </li>
+                      <li>
+                        <a href="#">Chất bảo vệ bề mặt gia công</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="main container">
+        <ul class="bread-crum">
+          <li>Trang Chủ</li>
+          <li>Sản Phẩm</li>
+          <li>Dụng cụ sửa chữa</li>
+        </ul>
+    </div>
+
+    
+
+    <!-- footer -->
+    <footer class="themeTT container">
+      <div class="rowfoot1">
+        <ul class="colfoot col1">
+          <li><strong>Thông tin cửa hàng</strong></li>
+          <li>
+            <a rel="nofollow" href="#" title="Hệ thống siêu thị"
+              >Hệ thống 1072 siêu thị <small>(8:00 - 22:00)</small></a
+            >
+          </li>
+          <li>
+            <a rel="nofollow" href="/gioi-thieu" title="Giới thiệu công ty"
+              >Giới thiệu công ty</a
+            >
+          </li>
+          <li>
+            <a href="#" title="Tìm việc làm">Tìm việc làm</a>
+          </li>
+          <li>
+            <a rel="nofollow" href="/lien-he" title="Liên hệ, góp ý"
+              >Liên hệ, góp ý</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a rel="nofollow" href="/noi-quy-cua-hang" title="Nội quy cửa hàng"
+              >Nội quy cửa hàng</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a rel="nofollow" href="#" title="In hóa đơn điện tử"
+              >In hóa đơn điện tử</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a rel="nofollow" href="/b2b" title="Bán hàng doanh nghiệp"
+              >Bán hàng doanh nghiệp</a
+            >
+          </li>
+        </ul>
+        <ul class="colfoot col2">
+          <li><strong>Hỗ trợ khách hàng</strong></li>
+          <li>
+            <a rel="nofollow" href="/tra-gop" title="Tìm hiểu về mua trả góp"
+              >Tìm hiểu về mua trả góp</a
+            >
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="/kinh-nghiem-hay/chinh-sach-giao-hang-lap-dat-1261528"
+              title="Giao hàng, lắp đặt"
+              >Giao hàng, lắp đặt</a
+            >
+          </li>
+          <li>
+            <a rel="nofollow" href="/bao-hanh-doi-tra" title="Bảo hành, đổi trả"
+              >Bảo hành, đổi trả</a
+            >
+          </li>
+          <li>
+            <a
+              rel="nofollow"
+              href="/ve-sinh-may-lanh"
+              title="Dịch vụ vệ sinh máy lạnh, máy giặt, quạt"
+              >DV vệ sinh máy lạnh, máy giặt, quạt</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a rel="nofollow" href="/bao-hanh" title="Tìm trung tâm bảo hành"
+              >Tìm trung tâm bảo hành</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a
+              rel="nofollow"
+              href="/chat-luong-phuc-vu"
+              title="Chất lượng phục vụ"
+              >Chất lượng phục vụ</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a rel="nofollow" href="/trao-thuong" title="Hướng dẫn trao thưởng"
+              >Hướng dẫn trao thưởng</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a
+              rel="nofollow"
+              href="/huong-dan-mua-hang"
+              title="Hướng dẫn mua hàng"
+              >Hướng dẫn mua hàng</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a
+              rel="nofollow"
+              href="/chinh-sach-khui-hop-apple"
+              title="Chính sách khui hộp sản phẩm apple"
+              >Chính sách khui hộp sản phẩm apple</a
+            >
+          </li>
+          <li class="" style="display: list-item;">
+            <a id="tomobile" rel="nofollow" href="/?view=mobile"
+              >Xem bản mobile</a
+            >
+          </li>
+        </ul>
+        <ul class="colfoot col3">
+          <li>
+            <strong>Tổng đài hỗ trợ (Gọi miễn phí)</strong>
+            <p>Mua hàng <a href="tel:18001061">1800.1061</a> (7:30 - 22:00)</p>
+            <p>Kỹ thuật <a href="tel:18001764">1800.1764</a> (7:30 - 22:00)</p>
+            <p>Bảo hành<a href="tel:18001065">1800.1065</a> (8:00 - 21:00)</p>
+            <p>Khiếu nại <a href="tel:18001063">1800.1063</a> (8:00 - 21:30)</p>
+            <a
+              target="_blank"
+              rel="nofollow"
+              class="bct"
+              href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=20790"
+            >
+              <i class="icondmx-bct">
+                <img src="./images/dathongbao.png" />
+              </i>
+            </a>
+          </li>
+        </ul>
+        <ul class="colfoot col4">
+          <li>
+            <strong>Social media</strong>
+            <a target="_blank" href="#" class="linkfb">
+              <img
+                src="./images/facebookHoangLongVu.png"
+                alt="facebook hoang long vu"
+              />
+            </a>
+            <a target="_blank" href="#" class="linkyt">
+              <img
+                src="./images/youtubeHoangLongVu.png"
+                alt="youtube hoang long vu"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="catehot">
+        <strong>Danh mục sản phẩm nổi bật</strong>
+        <ul class="item-hot">
+          <li>
+            <i class="fa fa-caret-right"></i
+            ><a href="#">Bút thử điện không tiếp xúc</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Máy cắt 7",180mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i> <a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+          <li>
+            <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+          </li>
+        </ul>
+      </div>
+      <div class="rowfoot2">
+        <p>
+          © 2018. Công ty cổ phần ABC. GPDKKD: 0303217354 do sở KH &amp; ĐT
+          TP.HCM cấp ngày 02/01/2007. GP số 57/GP-TTĐT do Sở TTTT TP HCM cấp
+          ngày 30/07/2018. <br />
+          Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Quận 1, TP.Hồ Chí Minh.
+          Điện thoại: 234565643. Email: ABC. Chịu trách nhiệm nội dung: ABC.
+          <a rel="nofollow" href="/dieu-khoan-su-dung"
+            >Xem chính sách sử dụng web</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

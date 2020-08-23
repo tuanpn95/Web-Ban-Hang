@@ -1,0 +1,31 @@
+@import "variable.scss";
+
+.main{
+    padding: 0;
+    .bread-crum{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+
+        li{
+            list-style: none;
+            position: relative;
+            display: inline-block;
+            padding-right: 15px;
+            margin-right: 10px;
+
+            a{
+                color: $color-black;
+                text-decoration: none;
+            }
+        }
+        li::before{
+            position: absolute;
+            content: "\f0da";
+            font-family: "Font Awesome 5 Free" !important;
+            right: 0;
+            font-weight: 900;
+            font-size: 14px;
+        }   
+    }
+}
