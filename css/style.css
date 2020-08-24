@@ -4,6 +4,12 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: "UtmAvo-Bold";
+  src: url("font/utm-avobold.woff");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   font-family: "UtmAvo";
   font-size: 12px;
@@ -22,7 +28,7 @@ header {
   header .logo {
     width: 25%;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: bottom; }
     header .logo img {
       width: 100%;
       height: auto; }
@@ -70,14 +76,16 @@ header {
         text-align: center;
         vertical-align: top;
         display: inline-block;
-        line-height: 22px;
+        line-height: 10px;
         margin-left: 20px;
         font-weight: 600;
+        font-size: 20px;
         text-decoration: none; }
         header .search_form .search_icon_wrapper .hotline span {
           display: block;
-          line-height: 17px;
-          padding-bottom: 5px; }
+          line-height: 16px;
+          padding-bottom: 5px;
+          font-size: 14px; }
       header .search_form .search_icon_wrapper i {
         padding-right: 10px; }
       header .search_form .search_icon_wrapper .cart {
@@ -127,7 +135,7 @@ header {
 
 .banner {
   display: block;
-  background: #FEF200; }
+  background: #fef200; }
   .banner img {
     width: 100%; }
   .banner img:hover {
@@ -190,6 +198,13 @@ header {
         display: none; }
       .main-navigation .main-category ul .has-sub-menu {
         position: relative; }
+        .main-navigation .main-category ul .has-sub-menu img {
+          width: 30px;
+          display: inline-block;
+          padding-right: 5px;
+          transition: none;
+          -webkit-transform: none;
+          transform: none; }
       .main-navigation .main-category ul .has-sub-menu::before {
         position: absolute;
         content: "\f0d7";
@@ -209,7 +224,8 @@ header {
       margin-bottom: 5px;
       display: block;
       text-align: left;
-      padding-left: 10px; }
+      padding-left: 5px;
+      text-transform: uppercase; }
     .main-navigation .main-category .sub-menu .has-sub-menu::before {
       display: none; }
     .main-navigation .main-category .has-sub-menu + .sub-menu {
@@ -250,11 +266,11 @@ header {
             height: 100%;
             font-size: 12px;
             font-weight: bold;
-            transition: 0.2s linear;
             font-family: "Font Awesome 5 Free";
             color: #c1bbbb; }
 
-.main-navigation::after, .main-navigation::before {
+.main-navigation::after,
+.main-navigation::before {
   width: 128px;
   content: "";
   position: absolute;
@@ -265,20 +281,20 @@ header {
   z-index: 1; }
 
 .main-navigation::before {
-  left: calc((100% - 1200px)/2 - 128px);
+  left: calc((100% - 1200px) / 2 - 100px);
   background: url("../images/left.png") no-repeat top right; }
 
 .main-navigation::after {
-  right: calc((100% - 1200px)/2 - 128px);
+  right: calc((100% - 1200px) / 2 - 100px);
   background: url("../images/right.png") no-repeat top left; }
 
 .partner {
   padding: 10px;
-  background: #9CECFB;
+  background: #9cecfb;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  background: -webkit-linear-gradient(to right, #0052d4, #65c7f7, #9cecfb);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  background: linear-gradient(to right, #0052d4, #65c7f7, #9cecfb);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .partner img {
     width: 100%; }
@@ -577,13 +593,14 @@ header {
     text-transform: uppercase; }
     .slider-full-container .title span {
       display: inline-block;
-      padding: 15px;
+      padding: 12px;
       vertical-align: bottom;
-      width: 190px; }
+      width: 220px;
+      font-size: 18px; }
     .slider-full-container .title .right-slider {
       display: inline-block;
       vertical-align: initial;
-      width: calc(100% - 200px);
+      width: calc(100% - 227px);
       text-align: right; }
       .slider-full-container .title .right-slider a {
         color: #fff;
@@ -745,7 +762,7 @@ header {
     width: 100%; }
     .listcate .knh-homepage h3 {
       display: block;
-      font-size: 14px;
+      font-size: 18px;
       color: #333;
       letter-spacing: 0;
       padding: 15px 20px 5px 20px;
@@ -1053,7 +1070,8 @@ img {
   display: none; }
 
 @media (max-width: 1366px) {
-  .main-navigation::after, .main-navigation::before {
+  .main-navigation::after,
+  .main-navigation::before {
     display: none; } }
 
 @media (max-width: 780px) {
@@ -1227,7 +1245,8 @@ img {
               height: 100%; }
         .main-navigation .menu-mobile ul li:hover {
           cursor: pointer; }
-  .main-navigation::after, .main-navigation::before {
+  .main-navigation::after,
+  .main-navigation::before {
     display: none; }
   .slider {
     width: 100%;
@@ -1261,9 +1280,10 @@ img {
       width: 100%; }
   .dailydeals-product .timer {
     width: auto;
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: right;
-    float: right; }
+    margin-bottom: 10px;
+    float: left; }
     .dailydeals-product .timer .hurry {
       display: none; }
   .dailydeals-product .bigdeal-item .item-wrap {

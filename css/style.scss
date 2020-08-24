@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "UtmAvo-Bold";
+  src: url("font/utm-avobold.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "UtmAvo";
   font-size: 12px;
@@ -21,9 +28,6 @@ header {
   padding: 10px 0;
   background: $color-blue;
   color: $color-white !important;
-
- 
-
   a {
     color: $color-white !important;
   }
@@ -31,7 +35,7 @@ header {
   .logo {
     width: 25%;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
 
     img {
       width: 100%;
@@ -94,15 +98,17 @@ header {
         text-align: center;
         vertical-align: top;
         display: inline-block;
-        line-height: 22px;
+        line-height: 10px;
         margin-left: 20px;
         font-weight: 600;
+        font-size: 20px;
         text-decoration: none;
 
         span {
           display: block;
-          line-height: 17px;
+          line-height: 16px;
           padding-bottom: 5px;
+          font-size: 14px;
         }
       }
 
@@ -179,17 +185,17 @@ header {
   }
 }
 
-.banner{
+.banner {
   display: block;
-  background: #FEF200;
+  background: #fef200;
 
-  img{
+  img {
     width: 100%;
   }
 
-  img:hover{
+  img:hover {
     transform: none;
-    -webkit-transform: none ;
+    -webkit-transform: none;
   }
 }
 
@@ -265,11 +271,20 @@ header {
         display: none;
       }
 
-      .has-sub-menu{
+      .has-sub-menu {
         position: relative;
+        img {
+          width: 30px;
+          display: inline-block;
+          padding-right: 5px;
+          transition: none;
+          -webkit-transform: none;
+          transform: none;
+        }
+        
       }
 
-      .has-sub-menu::before{
+      .has-sub-menu::before {
         position: absolute;
         content: "\f0d7";
         right: -14px;
@@ -284,87 +299,87 @@ header {
       }
     }
 
-    .sub-menu{
-      .has-sub-menu{
+    .sub-menu {
+      .has-sub-menu {
         font-size: 14px;
         color: $color-blue;
         font-weight: bold;
         margin-bottom: 5px;
         display: block;
         text-align: left;
-        padding-left: 10px;
+        padding-left: 5px;
+        text-transform: uppercase;
       }
 
-      .has-sub-menu::before{
+      .has-sub-menu::before {
         display: none;
       }
     }
 
-
-    .has-sub-menu+.sub-menu{
+    .has-sub-menu + .sub-menu {
       position: absolute;
-       height: 0;
+      height: 0;
 
-       background: $color-white;
-       z-index: 999;
-     }
+      background: $color-white;
+      z-index: 999;
+    }
 
-    .has-sub-menu:hover+.sub-menu{
+    .has-sub-menu:hover + .sub-menu {
       visibility: visible;
       height: 350px;
     }
 
-    .sub-menu:hover{
+    .sub-menu:hover {
       visibility: visible;
       height: 400px;
     }
 
-    .sub-menu{
+    .sub-menu {
       width: 900px;
       top: 41px;
-      aside{
+      aside {
         width: 24%;
         float: left;
         margin-top: 10px;
 
-        ul{
+        ul {
           width: 100%;
           padding-left: 10px;
-          li:after{
+          li:after {
             display: none;
           }
-  
-          li{
+
+          li {
             display: block;
             text-align: left;
             padding: 5px 10px;
             position: relative;
-  
-            a{
+
+            a {
               font-size: 12px;
               font-weight: normal;
             }
           }
 
-          li::before{
+          li::before {
             position: absolute;
             content: "\f0da";
             left: -2px;
             height: 100%;
             font-size: 12px;
             font-weight: bold;
-            transition: 0.2s linear;
+            // transition: 0.2s linear;
             font-family: "Font Awesome 5 Free";
             color: $color-gray-bold;
           }
-  
         }
       }
     }
   }
 }
 
-.main-navigation::after, .main-navigation::before{
+.main-navigation::after,
+.main-navigation::before {
   width: 128px;
   content: "";
   position: absolute;
@@ -376,23 +391,33 @@ header {
 }
 
 .main-navigation::before {
-  left: calc((100% - 1200px)/2 - 128px);
-  background: url('../images/left.png') no-repeat top right;
-} 
+  left: calc((100% - 1200px) / 2 - 100px);
+  background: url("../images/left.png") no-repeat top right;
+}
 
 .main-navigation::after {
-  right: calc((100% - 1200px)/2 - 128px);
-  background: url('../images/right.png') no-repeat top left;
+  right: calc((100% - 1200px) / 2 - 100px);
+  background: url("../images/right.png") no-repeat top left;
 }
 
 // doi tac
 
 .partner {
   padding: 10px;
-  background: #9CECFB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #9cecfb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   img {
     width: 100%;
   }
@@ -409,12 +434,11 @@ header {
   margin-top: 3px;
   width: calc(100% - 304px);
   .owl-carousel {
-    .owl-stage{
+    .owl-stage {
       .img {
         width: 100%;
       }
     }
-   
   }
 }
 
@@ -541,7 +565,7 @@ header {
           margin-bottom: 16px;
           font-size: 14px;
 
-          a{
+          a {
             color: $color-black;
             font-weight: bold;
           }
@@ -560,16 +584,16 @@ header {
           font-weight: bold;
           color: $color-blue;
 
-          .old-price{
+          .old-price {
             text-decoration: line-through;
             color: $color-gray-bold;
           }
-          
-          span{
+
+          span {
             display: inline-block;
           }
 
-          .new-price{
+          .new-price {
             font-size: 16px;
           }
 
@@ -591,7 +615,7 @@ header {
           margin-bottom: 5px;
           margin-top: 10px;
 
-          a{
+          a {
             color: $color-black;
             font-weight: bold;
             margin-right: 10px;
@@ -601,7 +625,7 @@ header {
             text-decoration: none;
           }
 
-          a:hover{
+          a:hover {
             color: $color-blue;
           }
         }
@@ -704,7 +728,7 @@ header {
     width: 300px;
     display: inline-block;
     cursor: pointer;
-  
+
     img {
       width: 100%;
       display: inline-block;
@@ -712,8 +736,6 @@ header {
     }
   }
 }
-
-
 
 .margin-non {
   margin: 0;
@@ -801,7 +823,6 @@ header {
   }
 }
 
-
 .slider-full-container {
   margin-top: 15px;
   border: solid 1px $color-gray-bold;
@@ -819,15 +840,16 @@ header {
 
     span {
       display: inline-block;
-      padding: 15px;
+      padding: 12px;
       vertical-align: bottom;
-      width: 190px;
+      width: 220px;
+      font-size: 18px;
     }
 
     .right-slider {
       display: inline-block;
       vertical-align: initial;
-      width: calc(100% - 200px);
+      width: calc(100% - 227px);
       text-align: right;
 
       a {
@@ -923,9 +945,9 @@ header {
     height: 380px;
   }
 
-  .slider-container-item:last-child{
+  .slider-container-item:last-child {
     margin-right: 0;
-  } 
+  }
 
   .title {
     font-weight: bold;
@@ -933,7 +955,7 @@ header {
     text-transform: uppercase;
     margin-left: -1px;
 
-    i{
+    i {
       font-size: 21px;
       color: $color-white;
       background: $color-blue;
@@ -947,12 +969,12 @@ header {
       font-size: 14px;
     }
 
-    .nav-slider{
+    .nav-slider {
       text-align: right;
       vertical-align: top;
       line-height: 51px;
       float: right;
-      i{
+      i {
         font-size: 20px;
         margin-right: 5px;
         padding: 5px;
@@ -961,7 +983,7 @@ header {
         color: $color-black;
       }
 
-      i:hover{
+      i:hover {
         background: $color-blue;
         color: $color-white;
       }
@@ -1046,7 +1068,7 @@ header {
 
     h3 {
       display: block;
-      font-size: 14px;
+      font-size: 18px;
       color: #333;
       letter-spacing: 0;
       padding: 15px 20px 5px 20px;
@@ -1450,17 +1472,17 @@ img {
 }
 
 .main-navigation {
-  .main-menu{
+  .main-menu {
     display: none;
   }
 }
 
 @media (max-width: 1366px) {
-  .main-navigation::after,   .main-navigation::before{
+  .main-navigation::after,
+  .main-navigation::before {
     display: none;
   }
 }
-
 
 @media (max-width: 780px) {
   header {
@@ -1720,7 +1742,8 @@ img {
     }
   }
 
-  .main-navigation::after, .main-navigation::before{
+  .main-navigation::after,
+  .main-navigation::before {
     display: none;
   }
 
@@ -1757,13 +1780,13 @@ img {
 
     .pro-item {
       .img-pro {
-        img{
+        img {
           width: auto;
         }
       }
     }
 
-    .slider-container-item{
+    .slider-container-item {
       width: 100%;
       margin-right: 0;
       height: auto;
@@ -1780,44 +1803,45 @@ img {
 
     .pro-item {
       .img-pro {
-        img{
+        img {
           width: auto;
         }
       }
     }
 
-    .slider-container-item{
+    .slider-container-item {
       width: 100%;
     }
   }
 
-  .dailydeals-product{
-    .timer{
+  .dailydeals-product {
+    .timer {
       width: auto;
-      margin-top: 15px;
+      margin-top: 20px;
       text-align: right;
-      float: right;
+      margin-bottom: 10px;
+      float: left;
 
-      .hurry{
+      .hurry {
         display: none;
       }
     }
 
-    .bigdeal-item{
-      .item-wrap{
+    .bigdeal-item {
+      .item-wrap {
         width: 100%;
         padding-bottom: 15px;
         border-bottom: 1px solid #c1bbbb;
         border-right: none;
 
-        .products-thumb{
+        .products-thumb {
           width: 100%;
           height: auto;
           margin-right: 0;
           margin-bottom: 10px;
         }
       }
-      .item-wrap:last-child{
+      .item-wrap:last-child {
         border-bottom: none;
       }
     }
@@ -1826,7 +1850,7 @@ img {
   .listcate {
     .knh-homepage {
       padding: 15px;
-      h3{
+      h3 {
         padding: 0;
         font-size: 14px;
       }

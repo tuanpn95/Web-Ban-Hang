@@ -3,7 +3,8 @@
   .main .bread-crum {
     margin: 0;
     padding: 0;
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-bottom: 10px; }
     .main .bread-crum li {
       list-style: none;
       position: relative;
@@ -12,7 +13,8 @@
       margin-right: 10px; }
       .main .bread-crum li a {
         color: #212529;
-        text-decoration: none; }
+        text-decoration: none;
+        cursor: pointer; }
     .main .bread-crum li::before {
       position: absolute;
       content: "\f0da";
@@ -20,3 +22,154 @@
       right: 0;
       font-weight: 900;
       font-size: 14px; }
+    .main .bread-crum li:last-child::before {
+      display: none; }
+  .main .category {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff; }
+    .main .category .title {
+      background: #189eff;
+      color: #fff;
+      text-align: center;
+      display: block;
+      text-transform: uppercase;
+      padding: 15px;
+      font-weight: bold;
+      font-size: 14px; }
+    .main .category .listcate span,
+    .main .category .brand span {
+      text-transform: uppercase;
+      padding: 10px;
+      background: #f0f0f0;
+      color: #189eff;
+      width: 100%;
+      display: block;
+      font-weight: bold; }
+    .main .category .listcate ul,
+    .main .category .brand ul {
+      margin: 0;
+      padding: 0 10px; }
+      .main .category .listcate ul li,
+      .main .category .brand ul li {
+        list-style: none;
+        padding: 10px;
+        font-weight: bold; }
+        .main .category .listcate ul li a,
+        .main .category .brand ul li a {
+          color: #212529; }
+        .main .category .listcate ul li a:hover,
+        .main .category .brand ul li a:hover {
+          color: #189eff; }
+  .main .item-list {
+    width: 79%;
+    display: inline-block;
+    vertical-align: top; }
+    .main .item-list .banner {
+      margin-bottom: 10px; }
+      .main .item-list .banner img {
+        width: 100%; }
+    .main .item-list .partner {
+      margin-bottom: 10px; }
+      .main .item-list .partner img {
+        width: 100%; }
+    .main .item-list .list .top {
+      display: block;
+      background: #f0f0f0; }
+      .main .item-list .list .top span {
+        display: inline-block;
+        padding: 20px 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #189eff;
+        text-transform: uppercase; }
+      .main .item-list .list .top .dropdownlist-option {
+        display: inline-block;
+        width: calc(100% - 182px);
+        text-align: right; }
+        .main .item-list .list .top .dropdownlist-option .brand-option,
+        .main .item-list .list .top .dropdownlist-option .sort-option {
+          display: inline-block;
+          padding-right: 5px;
+          border-radius: 3px;
+          height: 35px;
+          border: solid 1px #c1bbbb; }
+    .main .item-list .list .bottom {
+      background: #fff;
+      padding-bottom: 30px; }
+      .main .item-list .list .bottom .wid-4 {
+        width: 24%;
+        display: inline-block; }
+      .main .item-list .list .bottom .pro-item {
+        position: relative;
+        margin-top: 40px; }
+        .main .item-list .list .bottom .pro-item .img-pro {
+          overflow: hidden;
+          text-align: center;
+          margin: 10px;
+          min-height: 172px; }
+          .main .item-list .list .bottom .pro-item .img-pro img {
+            max-height: 180px;
+            margin: auto;
+            width: 100%; }
+        .main .item-list .list .bottom .pro-item .pro-name {
+          font-size: 12px;
+          line-height: 13px;
+          margin-bottom: 12px;
+          overflow: hidden;
+          text-align: center; }
+          .main .item-list .list .bottom .pro-item .pro-name a {
+            color: #212529; }
+        .main .item-list .list .bottom .pro-item .f-price {
+          color: #8a8a8a;
+          font-size: 0.9em;
+          line-height: 15px;
+          text-align: center; }
+        .main .item-list .list .bottom .pro-item .m-price {
+          font-size: 14px;
+          font-weight: 700;
+          text-align: center; }
+        .main .item-list .list .bottom .pro-item span {
+          height: 20px;
+          display: block; }
+        .main .item-list .list .bottom .pro-item .saleoff {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 52px;
+          height: 24px;
+          color: #fff;
+          font-size: 1.2em;
+          background: url("../images/price_tag.png") no-repeat;
+          text-align: right;
+          padding-right: 5px; }
+    .main .item-list .list .pagination {
+      width: 100%;
+      display: block;
+      background: #f0f0f0;
+      margin: auto;
+      text-align: center; }
+      .main .item-list .list .pagination a {
+        display: inline-block;
+        margin-right: 5px;
+        border: solid 1px #c1bbbb;
+        font-size: 14px;
+        color: #212529;
+        display: inline-block;
+        margin: 10px 5px;
+        padding: 5px 10px; }
+        .main .item-list .list .pagination a i {
+          font-size: 16px; }
+      .main .item-list .list .pagination a:hover {
+        background: #189eff;
+        color: #fff; }
+      .main .item-list .list .pagination b {
+        display: inline-block;
+        margin-right: 5px;
+        background: #189eff;
+        border: solid 1px #c1bbbb;
+        color: #fff;
+        font-size: 14px;
+        margin: 10px 5px;
+        padding: 5px 10px; }
