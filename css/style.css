@@ -76,7 +76,7 @@ header {
         text-align: center;
         vertical-align: top;
         display: inline-block;
-        line-height: 10px;
+        line-height: 22px;
         margin-left: 20px;
         font-weight: 600;
         font-size: 20px;
@@ -343,7 +343,7 @@ header {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg); }
   .dailydeals-product .timer {
-    width: 88%;
+    width: 80%;
     text-align: right;
     display: inline-block; }
     .dailydeals-product .timer .countdownTime {
@@ -1081,7 +1081,8 @@ img {
     margin: auto;
     margin-bottom: 10px; }
   header .search_form {
-    width: 100%; }
+    width: 100%;
+    margin-top: 5px; }
     header .search_form .search_box .inputSearch {
       width: 240px;
       height: 30px; }
