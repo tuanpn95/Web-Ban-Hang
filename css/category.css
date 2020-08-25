@@ -1,5 +1,6 @@
 .main {
-  padding: 0; }
+  padding: 0;
+  position: relative; }
   .main .bread-crum {
     margin: 0;
     padding: 0;
@@ -25,7 +26,7 @@
     .main .bread-crum li:last-child::before {
       display: none; }
   .main .category {
-    width: 20%;
+    width: 235px;
     display: inline-block;
     vertical-align: top;
     background: #fff; }
@@ -63,9 +64,11 @@
         .main .category .brand ul li a:hover {
           color: #189eff; }
   .main .item-list {
-    width: 79%;
+    width: calc(100% - 240px);
     display: inline-block;
     vertical-align: top; }
+    .main .item-list .partner {
+      background: #fff; }
     .main .item-list .banner {
       margin-bottom: 10px; }
       .main .item-list .banner img {
@@ -73,7 +76,8 @@
     .main .item-list .partner {
       margin-bottom: 10px; }
       .main .item-list .partner img {
-        width: 100%; }
+        width: 100%;
+        height: 50px; }
     .main .item-list .list .top {
       display: block;
       background: #f0f0f0; }

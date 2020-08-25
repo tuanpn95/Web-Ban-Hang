@@ -252,4 +252,25 @@ $(document).ready(function () {
       }
     }
   })
+
+  $(".item-list .owl-carousel").owlCarousel({
+    items: 4,
+    margin: 30,
+    smartSpeed: 450,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplaySpeed: 1000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        margin : 5
+      },
+      1200: {
+        items: 4
+      }
+    },
+  });
 });
