@@ -691,7 +691,7 @@ header {
       line-height: 15px;
       text-align: center; }
     .slider-full-container .pro-item .m-price {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 700;
       text-align: center; }
     .slider-full-container .pro-item span {
@@ -780,7 +780,7 @@ header {
       line-height: 15px;
       text-align: center; }
     .slider-container .pro-item .m-price {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 700;
       text-align: center; }
     .slider-container .pro-item span {
@@ -1112,12 +1112,12 @@ img {
 .icon-close {
   visibility: hidden;
   height: 0;
-  /*transition: 0.2s ease;*/ }
+  transition: 0.05s linear;}
 
 .sub-menu {
     visibility: hidden;
     height: 0;
-    /*transition: 0.2s ease;*/}
+    transition: 0.05s linear;}
 
 .main-navigation .main-menu {
   display: none; }
@@ -1137,7 +1137,7 @@ img {
     width: 100%;
     margin-top: 5px; }
     header .search_form .search_box .inputSearch {
-      width: 240px;
+      width: 239px;
       height: 30px; }
     header .search_form .search_box .btn-search {
       font-size: 12px;
@@ -1187,7 +1187,7 @@ img {
         vertical-align: top;
         display: inline-block;
         line-height: 22px;
-        margin-left: 20px;
+        margin-left: 42px;
         font-weight: 600;
         font-size: 16px;
         text-decoration: none;

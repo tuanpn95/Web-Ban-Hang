@@ -2,6 +2,9 @@
   padding: 0;
   position: relative; }
   .main .category, .main .category-mobile {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
     width: 235px;
     display: inline-block;
     vertical-align: top;
@@ -32,7 +35,7 @@
       padding: 0 10px;
       visibility: visible;
       height: 100%;
-      transition: 0.2s linear;
+      transition: 0.05s linear;
       height: 380px; }
       .main .category .listcate ul li,
       .main .category .brand ul li, .main .category-mobile .listcate ul li,
@@ -91,13 +94,13 @@
       .main .item-list .list .top span {
         display: inline-block;
         padding: 20px 10px;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
         color: #189eff;
         text-transform: uppercase; }
       .main .item-list .list .top .dropdownlist-option {
         display: inline-block;
-        width: calc(100% - 182px);
+        width: calc(100% - 230px);
         text-align: right; }
         .main .item-list .list .top .dropdownlist-option .brand-option,
         .main .item-list .list .top .dropdownlist-option .sort-option {
@@ -124,8 +127,8 @@
             max-height: 180px;
             margin: auto; }
         .main .item-list .list .bottom .pro-item .pro-name {
-          font-size: 12px;
-          line-height: 13px;
+          font-size: 14px;
+          line-height: 15px;
           margin-bottom: 12px;
           overflow: hidden;
           text-align: center; }
@@ -137,7 +140,7 @@
           line-height: 15px;
           text-align: center; }
         .main .item-list .list .bottom .pro-item .m-price {
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 700;
           text-align: center; }
         .main .item-list .list .bottom .pro-item span {

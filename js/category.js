@@ -20,7 +20,7 @@ $(document).ready(function () {
     },
   });
 
-  var elementPosition = $(".category").offset();
+  /*var elementPosition = $(".category").offset();
   var elementFooter = $("#footer").offset();
 
   $(window).scroll(function () {
@@ -42,7 +42,7 @@ $(document).ready(function () {
         $(".item-list").css("margin-left", "0");
       }
     }
-  });
+  });*/
 
   $('.main-cate').click(function(){
     var submenuElement = $(this).parent().find('ul');
