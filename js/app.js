@@ -224,13 +224,17 @@ $(document).ready(function () {
   var countDownTimer = $('#countDownTimer').val();
 
   // countdown time
-  $('#countdownTime').countdown(countDownTimer, function(event) {
-    $(this).html(event.strftime(
-    '<span class="days">%d days</span>  '
-    + ': <span class="hours">%H</span> '
-    + ': <span class="minute">%M</span> '
-    + ': <span class="second">%S</span>'));
-  });
+
+  if ( $('#countdownTime').length > 0) {
+    $('#countdownTime').countdown(countDownTimer, function(event) {
+      $(this).html(event.strftime(
+      '<span class="days">%d days</span>  '
+      + ': <span class="hours">%H</span> '
+      + ': <span class="minute">%M</span> '
+      + ': <span class="second">%S</span>'));
+    });
+  }
+
 
   $('.has-sub-menu').click(function(){
       $(this).toggleClass('show-menu');
@@ -273,4 +277,20 @@ $(document).ready(function () {
       }
     },
   });
+
+  $("#main-flag").click(function(){
+    $('.menu-language').toggleClass("visibilityNone")
+  });
+
+  $("body").click(function(e){
+    if (!$(e.target).parent().is('.menu-language, .main-flag') && !$('.menu-language').hasClass("visibilityNone")) {
+      $('.menu-language').toggleClass("visibilityNone");
+    }
+  })
+
+  $(".sub-flag").click(function(){
+    $('.main-flag').find('img').attr('src',$(this).find('img').attr('src'));
+  });
+
+
 });

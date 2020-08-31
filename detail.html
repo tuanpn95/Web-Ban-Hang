@@ -1,0 +1,1743 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Detail</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="Public"> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="./js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./js/jquery.ez-plus.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/detail.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css"
+    />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./js/owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./js/owlcarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/detail.css" />
+  </head>
+
+  <body>
+      <div class="banner">
+          <div class="container padding-non">
+              <img src="./images/banner.jpg" alt="bannner" />
+          </div>
+      </div>
+      <header>
+          <div class="container">
+              <span class="logo">
+                  <a href="#" title="">
+                      <img src="images/logo.png" alt="" title="" />
+                  </a>
+              </span>
+
+              <div class="mobile-component">
+                  <div class="search_icon_wrapper mar-mb">
+                      <a href="tel: " class="hotline">
+                          <i class="fa fa-phone"></i>
+                          0932.232.900
+                      </a>
+                  </div>
+              </div>
+
+              <!--Search Tool-->
+              <div class="search_form">
+                  <div class="search_box">
+                      <input class="inputSearch"
+                             placeholder="Nhập tên sản phẩm"
+                             name="keyword"
+                             type="text"
+                             id="keyword"
+                             value=""
+                             autocomplete="off" />
+                      <button class="btn-search">
+                          <i class="fa fa-search"></i>
+                          <span>Tìm kiếm</span>
+                      </button>
+                      <a href="javascript: void(0);" class="cart mobile-component">
+                          <i class="fa fa-cart-plus"> </i>
+                          <span id="sp_total_product_in_cart_header">0</span>
+                      </a>
+                  </div>
+
+                  <div class="search_icon_wrapper mar-mb">
+                      <a href="javascript: void(0);" class="cart">
+                          <i class="fa fa-cart-plus"> </i>Giỏ Hàng
+                          <span id="sp_total_product_in_cart_header">0</span>
+                      </a>
+                      <a href="tel: " class="hotline">
+                          0932.232.900
+                          <span>Hotline</span>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+      <!-- navigation -->
+      <div class="main-navigation">
+          <div class="container padding-non">
+              <div class="mainbox">
+                  <div class="main-menu">
+                      <i class="fa fa-align-justify"></i>
+                      <span>Tất cả Danh mục</span>
+                  </div>
+                  <nav class="main-category">
+                      <ul>
+                          <li>
+                              <a>Trang chủ</a>
+                          </li>
+                          <li>
+                              <a>Giới thiệu</a>
+                          </li>
+                          <li>
+                              <a class="has-sub-menu">Dụng cụ sửa chữa</a>
+                              <div class="sub-menu">
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon4.svg" alt="dung cu sưa chua" />
+                                          Máy - Dụng cụ cầm tay
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Dụng cụ cầm tay sử dụng Điện</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Dụng cụ cầm tay sử dụng Pin</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon5.svg" alt="dung cu cam tay" />
+                                          Công cụ cầm tay
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Khóa vòm miệng</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Mỏ lết</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Cần siết lực</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Tuốc nơ vít</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Bộ dụng cụ vặn vít</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Kềm các loại</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Eto kẹp</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Cảo dụng cụ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Các loại gá</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon6.svg" alt="dung cu do" /> Dụng cụ
+                                          đo
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Thước kẹp cơ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thước kẹp điện tử</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Panme đo trong</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Panme đo ngoài</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Panme đo lỗ sâu</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thước dây</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thước kéo</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thước ê ke</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                              </div>
+                          </li>
+                          <li>
+                              <a class="has-sub-menu">Thiết bị thay thế</a>
+                              <div class="sub-menu">
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon1.svg" alt="thiết bị cơ khí" />
+                                          Thiết bị cơ khí
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Vòng bi</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Gối đỡ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thanh trượt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ray trượt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Dây curoa</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Puly</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Nhông xích công nghiệp</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Khớp nối trục và khóa trục</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Phốt dầu, phốt xilanh</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon2.svg" alt="thiết bị điện" />
+                                          Thiết bị điện
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Biến tần và khởi động mềm</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thiết bị đóng cắt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Cảm biến</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thiết bị điều khiển và hiển thị</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon3.svg"
+                                               alt="Khí nén và thủy lực" />
+                                          Khí nén và thủy lực
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Van khí nén</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Xilanh</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Các thiết bị điều khiển</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Phụ kiện khí nén</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ống hơi</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van thủy lực</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ống thủy lực</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                              </div>
+                          </li>
+                          <li>
+                              <a class="has-sub-menu">Vật tư tiêu hao</a>
+                              <div class="sub-menu left-menu">
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon7.svg" alt="Vật tư gia công" />Vật
+                                          tư gia công
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Đá mài</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Đá cắt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Mũi khoan</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Mũi Taro</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Lưỡi cắt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Lưỡi cưa</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon8.svg"
+                                               alt="Bu long và ốc vít" />Bu long và ốc vít
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Bu lông cường độ cao</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Bu lông neo các loại</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Vít bắn tôn</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Vít mạ kẽm</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Vít inox</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon9.svg" alt="Vật tư ống nước" />Vật
+                                          tư ống nước
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Ống inox</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ống kẻm</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ống nhựa PVC</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van hơi nóng</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van cầu</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van bướm</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van bằng gang</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van inox</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Keo dán ống</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Băng keo non</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Co, cút, tê</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">
+                                          <img src="./images/icon10.svg"
+                                               alt="Dầu và chất tẩy rửa" />Dầu và chất tẩy rửa
+                                      </span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Dầu thủy lực</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Dầu bánh răng</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Dầu máy khí nén</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Chất làm sạch và chống gỉ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Chất bảo vệ bề mặt gia công</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                              </div>
+                          </li>
+                      </ul>
+                  </nav>
+
+                  <div class="language">
+                      <a href="#" id="main-flag" class="main-flag">
+                          <img src="./images/flag/vietnam-flag.png" />
+                      </a>
+
+                      <ul class="menu-language visibilityNone">
+                          <li>
+                              <a href="javascript:void(0)" class="sub-flag">
+                                  <img src="./images/flag/vietnam-flag.png" />
+                                  Vietnamese
+                              </a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)" class="sub-flag">
+                                  <img src="./images/flag/south-korea.png" />
+                                  Korean
+                              </a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0)" class="sub-flag">
+                                  <img src="./images/flag/united-kingdom-flag.png" />
+                                  English
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <nav class="menu-mobile">
+                      <ul>
+                          <li>
+                              <a><span>Trang chủ</span></a>
+                          </li>
+                          <li>
+                              <a><span>Giới thiệu</span></a>
+                          </li>
+                          <li>
+                              <span class="has-sub-menu">Dụng cụ sửa chữa </span>
+                              <div class="sub-menu">
+                                  <aside>
+                                      <span class="has-sub-menu">Máy - Dụng cụ cầm tay</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Dụng cụ cầm tay sử dụng Điện</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Dụng cụ cầm tay sử dụng Pin</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">Công cụ cầm tay</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Khóa vòm miệng</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Mỏ lết</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Cần siết lực</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Tuốc nơ vít</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Bộ dụng cụ vặn vít</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Kềm các loại</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Eto kẹp</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Cảo dụng cụ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Các loại gá</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">Dụng cụ đo</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Thước kẹp cơ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thước kẹp điện tử</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Panme đo trong</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Panme đo ngoài</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Panme đo lỗ sâu</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thước dây</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thước kéo</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thước ê ke</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                              </div>
+                          </li>
+                          <li>
+                              <span class="has-sub-menu">Thiết bị thay thế</span>
+                              <div class="sub-menu">
+                                  <aside>
+                                      <span class="has-sub-menu">Thiết bị cơ khí</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Vòng bi</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Gối đỡ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thanh trượt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ray trượt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Dây curoa</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Puly</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Nhông xích công nghiệp</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Khớp nối trục và khóa trục</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Phốt dầu, phốt xilanh</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">Thiết bị điện</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Biến tần và khởi động mềm</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thiết bị đóng cắt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Cảm biến</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Thiết bị điều khiển và hiển thị</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">Khí nén và thủy lực</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Van khí nén</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Xilanh</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Các thiết bị điều khiển</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Phụ kiện khí nén</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ống hơi</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van thủy lực</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ống thủy lực</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                              </div>
+                          </li>
+                          <li>
+                              <span class="has-sub-menu">Vật tư tiêu hao</span>
+                              <div class="sub-menu">
+                                  <aside>
+                                      <span class="has-sub-menu">Vật tư gia công</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Đá mài</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Đá cắt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Mũi khoan</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Mũi Taro</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Lưỡi cắt</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Lưỡi cưa</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">Bu long và ốc vít</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Bu lông cường độ cao</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Bu lông neo các loại</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Vít bắn tôn</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Vít mạ kẽm</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Vít inox</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">Vật tư ống nước</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Ống inox</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ống kẻm</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Ống nhựa PVC</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van hơi nóng</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van cầu</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van bướm</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van bằng gang</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Van inox</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Keo dán ống</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Băng keo non</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Co, cút, tê</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                                  <aside>
+                                      <span class="has-sub-menu">Dầu và chất tẩy rửa</span>
+                                      <ul class="child-menu">
+                                          <li>
+                                              <a href="#">Dầu thủy lực</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Dầu bánh răng</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Dầu máy khí nén</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Chất làm sạch và chống gỉ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Chất bảo vệ bề mặt gia công</a>
+                                          </li>
+                                      </ul>
+                                  </aside>
+                              </div>
+                          </li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+
+      <div class="main container">
+          <ul class="bread-crum">
+              <li><a>Trang Chủ</a></li>
+              <li><a>Sản Phẩm</a></li>
+              <li>
+                  <a>
+                      Dụng cụ sửa chữa
+                  </a>
+              </li>
+          </ul>
+
+          <div class="main-information">
+              <div class="top-content">
+                  <h1>Máy khoan Makita 780W Makita HR2460</h1>
+                  <div class="likeshare">
+                      <div id="fb-root" class="fb_reset">
+                          <div style="
+                  position: absolute;
+                  top: -10000px;
+                  width: 0px;
+                  height: 0px;
+                ">
+                              <div></div>
+                          </div>
+                      </div>
+                      <div class="fb-like fb_iframe_widget"
+                           data-href="/may-giat/panasonic-na-f100v5lrv"
+                           data-layout="button_count"
+                           data-action="like"
+                           data-show-faces="true"
+                           data-share="true"
+                           fb-xfbml-state="rendered"
+                           fb-iframe-plugin-query="action=like&amp;app_id=347708555397323&amp;container_width=0&amp;href=https%3A%2F%2Fwww.dienmayxanh.com%2Fmay-giat%2Fpanasonic-na-f100v5lrv&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true">
+                          <span style="vertical-align: bottom; width: 128px; height: 20px;">
+                              <iframe name="f3d32ff31bfb7d4"
+                                      width="1000px"
+                                      height="1000px"
+                                      data-testid="fb:like Facebook Social Plugin"
+                                      title="fb:like Facebook Social Plugin"
+                                      frameborder="0"
+                                      allowtransparency="true"
+                                      allowfullscreen="true"
+                                      scrolling="no"
+                                      allow="encrypted-media"
+                                      src="https://www.facebook.com/v2.4/plugins/like.php?action=like&amp;app_id=347708555397323&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1ad1a817048a2c%26domain%3Dwww.dienmayxanh.com%26origin%3Dhttps%253A%252F%252Fwww.dienmayxanh.com%252Ff3f3c9e3d185ae%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.dienmayxanh.com%2Fmay-giat%2Fpanasonic-na-f100v5lrv&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true"
+                                      style="
+                    border: none;
+                    visibility: visible;
+                    width: 128px;
+                    height: 20px;
+                  "
+                                      class=""></iframe>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="images-main">
+                  <div class="main-image owl-carousel owl-theme" id="img-container">
+                      <img src="./images/sp/may-khoan-makita-780w.jpg"
+                           alt="may khoan makita" />
+                      <img src="./images/sp/maykhoan-2.png" alt="may khoan 2" />
+                      <img src="./images/sp/maykhoan-3.png" alt="may khoan makita" />
+                      <img src="./images/sp/maykhoan-4.png" alt="may khoan makita" />
+                  </div>
+                  <div class="small-image">
+                      <div class="image-galery">
+                          <img src="./images/sp/may-khoan-makita-780w.jpg"
+                               alt="may khoan makita" />
+                      </div>
+                      <div class="image-galery">
+                          <img src="./images/sp/maykhoan-2.png" alt="may khoan 2" />
+                      </div>
+                      <div class="image-galery">
+                          <img src="./images/sp/maykhoan-3.png" alt="may khoan makita" />
+                      </div>
+                      <div class="image-galery">
+                          <img src="./images/sp/maykhoan-4.png" alt="may khoan makita" />
+                      </div>
+                  </div>
+                  <div class="special-point">
+                      <h5>Đặc điểm nổi bật</h5>
+                      <ul>
+                          <li>
+                              Giặt sạch nhiều vết bẩn, diệt khuẩn 99,99% với giặt nước nóng
+                              Stain Master.
+                          </li>
+                          <li>
+                              Đánh bay vết bẩn cứng đầu với công nghệ Active Foam và hộp đánh
+                              tan bột giặt Turbo Mixer tạo bọt siêu mịn.
+                          </li>
+                          <li>Hoạt động tốt cả trong điều kiện nguồn nước yếu.</li>
+                          <li>
+                              Tự động cân chỉnh mực nước thông minh với cảm biến Econavi.
+                          </li>
+                          <li>Tạo luồng nước mạnh mẽ với mâm giặt 8 cánh Active Wave.</li>
+                          <li>
+                              Chế độ sấy gió 90 phút - tiết kiệm thời gian phơi quần áo.
+                          </li>
+                          <li>
+                              Loại bỏ các chất bẩn và cặn đóng trong lồng giặt với chế độ vệ
+                              sinh lồng giặt Tub Hygiene.
+                          </li>
+                      </ul>
+                      <div class="ovlarticle"></div>
+                  </div>
+                  <a href="javascript:" onclick="viewMoreSelling()" class="viewmorekeyselling">Xem thêm điểm nổi bật</a>
+              </div>
+              <aside class="price_sale">
+                  <div class="area_price">
+                      <div class="dl">
+                          Giá tại <b class="province">TP. HCM</b><b>:</b>
+                      </div>
+                      <strong class="kmgiagach"> 8.590.000₫ </strong>
+                      <strong class="dl"> 10.090.000₫ <b>-14%</b> </strong>
+                  </div>
+                  <div class="area_promotion newpro zero">
+                      <strong>KHUYẾN MÃI</strong>
+                      <span class="promo">
+                          <i class="numeric">1</i> Tặng 13 tháng tiền điện trị giá
+                          1,300,000đ(đã trừ vào giá)
+                          <a href="https://www.dienmayxanh.com/khuyen-mai/tiep-suc-hau-dich-bao-phi-tien-dien-chi-co-tai-d-1256728"
+                             target="_blank">
+                              Xem chi tiết
+                          </a>
+                      </span>
+                      <span class="promo" data-id="579806">
+                          <i class="numeric">2</i> Cơ hội trúng 9 Tủ lạnh Panasonic Inverter
+                          494 lít NR-CY550GKVN
+                          <a href="https://www.dienmayxanh.com/khuyen-mai/mua-may-giat-panasonic-co-co-hoi-trung-tu-lanh-pa-1265778"
+                             target="_blank">(click xem chi tiết)</a>
+                      </span>
+                      <span class="promo" data-id="592430">
+                          <i class="numeric">3</i> Cơ hội trúng 300 giải tiền mặt trị giá
+                          5,5 triệu/giải
+                          <a href="https://www.dienmayxanh.com/khuyen-mai/mua-tu-lanh-may-giat-panasonic-co-co-hoi-trung-tie-1277652"
+                             target="_blank">(click xem chi tiết)</a>
+                      </span>
+                      <span class="promo" data-id="582300">
+                          <i class="numeric">4</i> Tặng 2 suất mua Đồng hồ thời trang giảm
+                          40% (không áp dụng thêm khuyến mãi khác)
+                          <a href="https://www.dienmayxanh.com/khuyen-mai/co-hoi-san-dong-ho-deo-tay-thoi-thuong-gia-re-1270476"
+                             target="_blank">(click xem chi tiết)</a>
+                      </span>
+                      <span class="promo" data-id="589602">
+                          <i class="numeric">5</i> Tặng suất mua Áo máy giặt/Túi
+                          giặt/Móc/Kẹp giảm giá 20%.
+                          <a href="https://www.dienmayxanh.com/khuyen-mai/mua-may-giat-duoc-mua-kem-phu-kien-may-giat-giam-1272929"
+                             target="_blank">(click xem chi tiết)</a>
+                      </span>
+                      <span class="promo" data-id="589139">
+                          <i class="numeric">6</i> Mua kèm Máy bơm nước Kangaroo KG 125ZP
+                          hoặc Máy bơm nước Kangaroo KG 180ZP giảm giá 20%
+                          <a href="https://www.dienmayxanh.com/khuyen-mai/giam-gia-may-bom-nuoc-tang-ap-kangaroo-khi-mua-may-1266277"
+                             target="_blank">(click xem chi tiết)</a>
+                      </span>
+                      <span class="promo" data-id="589179">
+                          <i class="numeric">7</i> Mua kèm Máy xịt rửa cao áp Kachi
+                          MK-192/MK-164 hoặc Bộ máy khoan đa năng Kachi MK-212 giảm giá 10%
+                          <a href="https://www.dienmayxanh.com/khuyen-mai/mua-tivi-may-giat-tu-lanh-may-lanh-duoc-mua-kem-ma-1275336?clearcache=dmx"
+                             target="_blank">(click xem chi tiết)</a>
+                      </span>
+                  </div>
+                  <div class="notechoose"></div>
+                  <p class="note-ap">
+                      *Giá và khuyến mãi dự kiến áp dụng đến <span>31/08</span>
+                  </p>
+
+                  <div id="thoi-gian-giao-hang" class="xtoydays rslt none">
+                      <div class="quickdelivery">
+                          <div class="deliverytime">
+                              <span class="con_hang">Còn hàng</span>
+                              <p>
+                                  <i class="fa fa-map-marker-alt"></i>Giao tới Số nhà 45F, đường 160, Lã
+                                  Xuân Oai, Phường Tăng Nhơn Phú A, Quận 9, Hồ Chí Minh
+                              </p>
+                              <a href="javascript:" class="onoffdelibox">Giao tới địa chỉ khác</a>
+                              <span class="con_hang normal pad">Giao hàng<b>Trước 15h hôm nay (29/08)</b></span>
+                              <span class="con_hang normal pad">Miễn phí giao hàng</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="pmhbhx">
+                      <img src="./images/hopqua.png" />
+                      <b>Tặng 100.000đ</b> mua hàng tại website thành viên
+                      BachhoaXANH.com, áp dụng khi mua Online tại Tp.HCM, Tp.Nha Trang và
+                      Tp.Phan Thiết
+                      <a href="https://www.bachhoaxanh.com/kinh-nghiem-hay/tang-phieu-mua-hang-bachhoaxanhcom-khi-mua-sam-tai-thegioididongcom-va-dienmayxanhcom-1276540"
+                         target="_blank">(click xem chi tiết)</a>
+                  </div>
+
+                  <div class="cp-gamejcb">
+                      <div class="ctleft">
+                          <img src="./images/logo-jcb.png" />
+                          <span>
+                              Giảm thêm <b>600.000đ</b> khi thanh toán bằng thẻ JCB cho sản
+                              phẩm trên 6.000.000đ.
+                              <a href="https://www.dienmayxanh.com/khuyen-mai/giam-600-000d-khi-thanh-toan-bang-the-jcb-cho-san-1266282"
+                                 target="_blank">Xem hướng dẫn</a>
+                          </span>
+                      </div>
+                      <div class="ctright">
+                          <a class="">Mua ngay</a>
+                      </div>
+                  </div>
+
+                  <div class="area_order">
+                      <a href="/dat-hang?productId=106332" class="buy_now">
+                          Mua ngay
+                          <span class="buy_now_subtext">Giao tận nơi, không mua không sao</span>
+                      </a>
+                      <a href="#"
+                         class="buy_ins twoins">
+                          <i class="fa fa-shopping-cart"></i>
+                          Thêm vào giỏ hàng
+                      </a>
+                      <a href="https://www.google.com/maps/place/C%C3%B4ng+Ty+TNHH+Vi+Na+Ho%C3%A0ng+Long+V%C5%A9/@10.752699,106.966865,14z/data=!4m5!3m4!1s0x0:0x53091312c2373cb3!8m2!3d10.7526986!4d106.9668646?hl=vi"
+                         class="buy_ins nl twoins"
+                         target="_blank">
+                          <i class="fa fa-map-marker"></i>
+                          Đến cửa hàng
+
+                      </a>
+                  </div>
+
+                  <div class="callorder">
+                      <span>
+                          Gọi đặt mua: <i class="fa fa-phone"></i><a href="tel:0932232900"> 0932.232.900</a> (7:30-22:00)
+                      </span>
+                  </div>
+              </aside>
+
+              <aside class="checkexist show-cod">
+                  <div class="checkstockbox">
+                      <a class="popup2store" href="#">
+                          <i class="fa fa-map-marker-alt"></i>Xem siêu thị có hàng trưng
+                          bày
+                      </a>
+                  </div>
+                  <div class="policy_intuitive">
+                      <div class="for-mobile">
+                          <h4>Mua như vua - chăm sóc như vip</h4>
+                          <ul class="policy_new">
+                              <li>
+                                  <span><img src="./images/icon/setting.png" /> </span>
+                                  <p><b>Miễn phí</b> công lắp đặt</p>
+                              </li>
+                              <li>
+                                  <span><img src="./images/icon/change.png" /></span>
+                                  <p>
+                                      Lỗi là đổi mới trong <b>1 tháng</b> tận nhà
+                                      <a href="javascript:"
+                                         title="Chính sách đổi trả">
+                                          Xem Chi tiết
+                                      </a>
+                                  </p>
+                              </li>
+                              <li>
+                                  <span><img src="./images/icon/phone.png" /></span>
+                                  <p>Đổi trả và bảo hành cực dễ <b>chỉ cần số điện thoại</b></p>
+                              </li>
+                              <li>
+                                  <span><img src="./images/icon/shield.png" /></span>
+                                  <p>
+                                      Bảo hành <b>chính hãng thân máy 2 năm</b>, có người đến lấy
+                                      tận nhà
+                                  </p>
+                              </li>
+                          </ul>
+                      </div>
+                      <ul class="policy">
+                          <li>
+                              <i class="fa fa-check"></i>
+                              <p>
+                                  Phí vật tư có thể phát sinh: <b>45.000₫</b>.
+                                  <a href="#vat-tu-lap-dat">Xem chi tiết vật tư.</a>
+                              </p>
+                          </li>
+                          <li>
+                              <i class="fa fa-check"></i>
+                              <p>
+                                  Kèm theo máy có:
+                                  <b>Phiếu bảo hành, Sách hướng dẫn, Ống dẫn nước</b>
+                              </p>
+                          </li>
+                          <li>
+                              <i class="fa fa-check"></i>
+                              <p>
+                                  <a href="/bao-hanh-doi-tra"
+                                     title="Xem chi tiết chính sách bảo hành">Xem chính sách bảo hành</a>
+                              </p>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="oldpro-stopsale normal">
+                      <h3>
+                          Máy giặt Panasonic 10 kg NA-F100V5LRV GIÁ RẺ HƠN tại TP. HCM
+                      </h3>
+                      <a href="/may-doi-tra/panasonic-na-f100v5lrv?pid=106332&amp;prv=3&amp;type=7">
+                          <span>Xem 18 máy trưng bày từ:</span> <strong>7.060.000₫</strong>
+                          <label>Tiết kiệm <span>30%</span></label>
+                      </a>
+                      <a href="/may-doi-tra/panasonic-na-f100v5lrv?pid=106332&amp;prv=3&amp;type=2">
+                          <span>Xem 2 máy cũ từ: </span><strong>6.560.000₫</strong>
+                          <label>Tiết kiệm <span>35%</span></label>
+                      </a>
+                  </div>
+              </aside>
+          </div>
+
+          <div class="slider-full-container container">
+              <div class="title">
+                  <span>SẢN PHẨM THƯỜNG ĐƯỢC XEM CÙNG </span>
+              </div>
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="detail-information">
+              <aside class="content-detail">
+                  <h4>Mô tả sản phẩm</h4>
+                  <div class="imgNote">
+                      <img src="./images/sp/may-giat-panasoni.jpg" alt="maygiat" />
+                  </div>
+                  <div class="box-article">
+                      <article id="function-description"
+                               class="area_article"
+                               style="height: 400px;">
+                          <h3>Công nghệ giặt nước nóng StainMaster+ diệt khuẩn</h3>
+                          <p>
+                              <a href="https://www.dienmayxanh.com/may-giat/panasonic-na-f100v5lrv"
+                                 target="_blank"
+                                 title="Máy giặt Panasonic NA-F100V5LRV">Máy giặt Panasonic NA-F100V5LRV</a>&nbsp;được trang bị công nghệ&nbsp;<a href="https://www.dienmayxanh.com/kinh-nghiem-hay/cong-nghe-giat-nuoc-nong-stain-master-tren-may-gia-964782"
+                                                                                                                                                  target="_blank"
+                                                                                                                                                  title="Giặt nước nóng StainMaster+">giặt nước nóng StainMaster+</a>&nbsp;có thể tiêu diệt vi khuẩn và các tác nhân gây dị ứng
+                              trong sợi vải, khi sử dụng chiếc máy giặt&nbsp;Panasonic
+                              NA-F100V5LRV, bạn sẽ hoàn toàn yên tâm vì sức khỏe của cả gia
+                              đình luôn được bảo vệ tối ưu nhất.
+                          </p>
+                          <p>
+                              <img alt="Công nghệ giặt nước nóng StainMasterPlus - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   title="Công nghệ giặt nước nóng StainMasterPlus - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   data-src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-4.jpg"
+                                   class="lazy"
+                                   src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-4.jpg"
+                                   style="display: block; opacity: 1;" />
+                          </p>
+                          <h3>
+                              Hệ thống ActiveFoam đánh tan bột giặt thành các hạt siêu mịn,
+                              thấm sâu vào sợi vải
+                          </h3>
+                          <p>
+                              <a href="https://www.dienmayxanh.com/kinh-nghiem-hay/cong-nghe-giat-tren-may-giat-panasonic-586932#hydro"
+                                 target="_blank"
+                                 title="Hệ thống ActiveFoam">Hệ thống ActiveFoam</a>&nbsp;trên chiếc
+                              <a href="https://www.dienmayxanh.com/may-giat-panasonic"
+                                 target="_blank"
+                                 title="máy giặt Panasonic">máy giặt Panasonic</a>
+                              này không chỉ mang đến khả năng tiết kiệm bột giặt tối ưu mà nó
+                              còn giúp đánh tan bọt xà phòng thành các hạt khí li ti, siêu
+                              mịn, thẩm thấu sâu vào từng sợi vải, đánh bật mọi vết bẩn khó
+                              chịu và cứng đầu nhất, trả lại sự sạch sẽ, thơm mát cho những
+                              chiếc quần áo của gia đình bạn.
+                          </p>
+                          <p>
+                              <img alt="Hệ thống ActiveFoam - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   title="Hệ thống ActiveFoam - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   data-src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-5.jpg"
+                                   class="lazy"
+                                   src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-5.jpg"
+                                   style="display: block; opacity: 1;" />
+                          </p>
+                          <h3>Thiết kế đơn giản, dễ dàng thao tác, sử dụng</h3>
+                          <p>
+                              đến từ thương hiệu Nhật Bản đã quá&nbsp;quen thuộc với người
+                              Việt. Máy có thiết kế
+                              <a href="https://www.dienmayxanh.com/may-giat?g=cua-tren"
+                                 target="_blank"
+                                 title="cửa trên">cửa trên</a>&nbsp;đơn giản, bảng điều khiển được đặt ở phía sau giúp bạn dễ
+                              dàng sử dụng, nắp máy làm từ kính chịu lực có thể chịu được vật
+                              nặng mà không phải lo lắng nắp bị nứt hay vỡ.
+                          </p>
+                          <p>
+                              <img alt="Bảng điều khiển đặt ở phía sau - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   title="Bảng điều khiển đặt ở phía sau - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   data-src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-2.jpg"
+                                   class="lazy"
+                                   src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-2.jpg"
+                                   style="display: block; opacity: 1;" />
+                          </p>
+                          <p>
+                              Đối với những gia đình có số lượng thành viên đông, từ 6 người
+                              trở lên thì chiếc&nbsp;<a href="https://www.dienmayxanh.com/may-giat"
+                                                        target="_blank"
+                                                        title="máy giặt">máy giặt</a>&nbsp;với khối lượng giặt lên đến&nbsp;<a href="https://www.dienmayxanh.com/may-giat?g=tren-85-kg-tren-6-nguoi"
+                                                                                                                               target="_blank"
+                                                                                                                               title="10 kg">10 kg</a>&nbsp;sẽ là một sự lựa chọn đáng cân nhắc.
+                          </p>
+                          <p>
+                              <img alt="Máy giặt Panasonic NA-F100V5LRV"
+                                   title="Máy giặt Panasonic NA-F100V5LRV"
+                                   data-src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-1.jpg"
+                                   class="lazy"
+                                   src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-1.jpg"
+                                   style="display: block; opacity: 1;" />
+                          </p>
+                          <h3>
+                              Tự động cân chỉnh mực nước thông minh với cảm biến Econavi hiện
+                              đại
+                          </h3>
+                          <p>
+                              Với&nbsp;<a href="https://www.dienmayxanh.com/kinh-nghiem-hay/cong-nghe-giat-tren-may-giat-panasonic-586932#econavi"
+                                          target="_blank"
+                                          title="Cảm biến Econavi">cảm biến Econavi</a>&nbsp;hiện đại có khả năng cân chỉnh mực nước hoặc cảm biến
+                              nhiệt độ, từ đó đưa ra lượng nước và thời gian giặt phù hợp, máy
+                              giặt không chỉ giúp gia đình bạn giảm đáng kể chi phí nước hằng
+                              tháng mà nó còn giúp tiết kiệm lên đến 25% điện năng tiêu thụ so
+                              với các dòng máy giặt thông thường.
+                          </p>
+                          <p>
+                              <img alt="Cảm biến Econavi - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   title="Cảm biến Econavi - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   data-src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-3.jpg"
+                                   class="lazy"
+                                   src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-3.jpg"
+                                   style="display: block; opacity: 1;" />
+                          </p>
+                          <h3>
+                              Mâm giặt 8 cánh ActiveWave tạo luồng nước xoáy mạnh mẽ, đánh bật
+                              những vết bẩn cứng đầu nhất
+                          </h3>
+                          <p>
+                              <img alt="ActiveWave - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   title="ActiveWave - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   data-src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-6.jpg"
+                                   class="lazy"
+                                   src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-6.jpg"
+                                   style="display: block; opacity: 1;" />
+                          </p>
+                          <h3>Lồng giặt SAZANAMI làm từ thép không gỉ</h3>
+                          <p>
+                              Giờ đây bạn sẽ không còn phải lo lắng vì quần áo dễ bị sờn hay
+                              tưa chỉ khi giặt máy vì đã có&nbsp;<a href="https://www.dienmayxanh.com/kinh-nghiem-hay/cong-nghe-giat-tren-may-giat-panasonic-586932#sazanami-va-dancing"
+                                                                    target="_blank"
+                                                                    title="Lồng giặt SAZANAMI, Luồng nước Dancing">lồng giặt SAZANAMI</a>&nbsp;của máy giặt Panasonic&nbsp;NA-F100V5LRV. Với thiết kế
+                              đặc biệt,&nbsp;làm từ thép không gỉ kiểu lồng giặt này không chỉ
+                              mang đến khả năng giặt sạch hiệu quả cho quần áo mà còn chăm sóc
+                              dịu nhẹ cho từng sợi vải, bảo vệ quần áo luôn bền đẹp như mới.
+                          </p>
+                          <p>
+                              <img alt="Lồng giặt SAZANAMI - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   title="Lồng giặt SAZANAMI - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   data-src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-7.jpg"
+                                   class="lazy"
+                                   src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-7.jpg"
+                                   style="display: block; opacity: 1;" />
+                          </p>
+                          <h3>
+                              Hộp đánh tan bột giặt Turbo Mixer giúp loại bỏ cặn bột giặt còn
+                              đóng cục trên quần áo
+                          </h3>
+                          <p>
+                              <img alt="Hộp đánh tan bột giặt Turbo Mixer - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   title="Hộp đánh tan bột giặt Turbo Mixer - Máy giặt Panasonic 10 kg NA-F100V5LRV"
+                                   data-src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-8.jpg"
+                                   class="lazy"
+                                   src="https://cdn.tgdd.vn/Products/Images/1944/106332/Slider/vi-vn-panasonic-na-f100v5lrv-8.jpg"
+                                   style="display: block; opacity: 1;" />
+                          </p>
+                      </article>
+                      <p class="show-more"
+                         style="display: block;"
+                         onclick="showArticle()">
+                          <a href="javascript:" class="readmore">Đọc thêm </a>
+                      </p>
+                  </div>
+              </aside>
+              <aside class="technology-detail">
+                  <h4>Thông số kỹ thuật</h4>
+                  <ul>
+                      <li>
+                          <span>Xuất xứ :</span>
+                          <span>Trung Quốc</span>
+                      </li>
+                      <li>
+                          <span>Công nghệ :</span>
+                          <span>Nhật Bản</span>
+                      </li>
+                      <li>
+                          <span>Công suất (W) : </span>
+                          <span>Khoan 24mm Bêtông - Khoan 13mm Sắt - Khoan 32mm Gỗ</span>
+                      </li>
+                      <li>
+                          <span>Chi tiết chức năng : </span>
+                          <span> Khoan 24mm Bêtông - Khoan 13mm Sắt </span>
+                      </li>
+                      <li>
+                          <span>Kích thước, chiều dài (mm) : </span>
+                          <span>362mm </span>
+                      </li>
+                      <li>
+                          <span>Tốc độ va đập (lần/phút) : </span>
+                          <span>4500 </span>
+                      </li>
+                      <li>
+                          <span>Hãng sản xuất : </span>
+                          <span>Makita</span>
+                      </li>
+                      <li>
+                          <span>Trọng lượng (kg) : </span>
+                          <span>2.5</span>
+                      </li>
+                      <li>
+                          <span>Nguồn cấp : </span>
+                          <span>220V</span>
+                      </li>
+                      <li>
+                          <span>Tốc độ không tải (vòng/phút) : </span>
+                          <span>1100</span>
+                      </li>
+                  </ul>
+              </aside>
+          </div>
+
+          <div class="slider-full-container container">
+              <div class="title">
+                  <span>Sản phẩm cùng mức giá</span>
+              </div>
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="slider-full-container container">
+              <div class="title">
+                  <span>Sản phẩm liên quan</span>
+              </div>
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="pro-item">
+                          <figure class="img-pro">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">
+                                  <img src="./images/fix-item/van-vit.png"
+                                       alt="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE" />
+                              </a>
+                          </figure>
+                          <h2 class="pro-name">
+                              <a href="#" title="MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE">MÁY KHOAN BÚA M18 CHX-502C MILWAUKEE</a>
+                          </h2>
+
+                          <div class="info-price">
+                              <span class="f-price"><del>12.500.000 đ</del></span>
+                              <span class="m-price cl-red">13.000.000 đ</span>
+                          </div>
+
+                          <span class="saleoff">-5%</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="themeTT container" id="footer">
+          <div class="rowfoot1">
+              <ul class="colfoot col1">
+                  <li><strong>Thông tin cửa hàng</strong></li>
+                  <li>
+                      <a rel="nofollow" href="/gioi-thieu" title="Giới thiệu công ty">Giới thiệu công ty</a>
+                  </li>
+                  <li>
+                      <a href="#" title="Tìm việc làm">Tìm việc làm</a>
+                  </li>
+                  <li>
+                      <a rel="nofollow" href="/lien-he" title="Liên hệ, góp ý">Liên hệ, góp ý</a>
+                  </li>
+                  <li class="" style="display: list-item;">
+                      <a rel="nofollow" href="/noi-quy-cua-hang" title="Nội quy cửa hàng">Nội quy cửa hàng</a>
+                  </li>
+                  <li class="" style="display: list-item;">
+                      <a rel="nofollow" href="#" title="In hóa đơn điện tử">In hóa đơn điện tử</a>
+                  </li>
+                  <li class="" style="display: list-item;">
+                      <a rel="nofollow" href="/b2b" title="Bán hàng doanh nghiệp">Bán hàng doanh nghiệp</a>
+                  </li>
+              </ul>
+              <ul class="colfoot col2">
+                  <li><strong>Hỗ trợ khách hàng</strong></li>
+
+                  <li>
+                      <a rel="nofollow"
+                         href="/kinh-nghiem-hay/chinh-sach-giao-hang-lap-dat-1261528"
+                         title="Giao hàng, lắp đặt">Giao hàng, lắp đặt</a>
+                  </li>
+                  <li>
+                      <a rel="nofollow" href="/bao-hanh-doi-tra" title="Bảo hành, đổi trả">Bảo hành, đổi trả</a>
+                  </li>
+                  <li>
+                      <a rel="nofollow" href="/bao-hanh-doi-tra" title="Bảo hành, đổi trả">Trung tâm bảo hành</a>
+                  </li>
+
+                  <li class="" style="display: list-item;">
+                      <a rel="nofollow"
+                         href="/chat-luong-phuc-vu"
+                         title="Chất lượng phục vụ">Chất lượng phục vụ</a>
+                  </li>
+
+                  <li class="" style="display: list-item;">
+                      <a rel="nofollow"
+                         href="/huong-dan-mua-hang"
+                         title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a>
+                  </li>
+              </ul>
+              <ul class="colfoot col3">
+                  <li>
+                      <strong>Tổng đài hỗ trợ </strong>
+                      <p>Hotline: <a href="tel:0932.232.900"> 0932.232.900</a></p>
+                      <a target="_blank"
+                         rel="nofollow"
+                         class="bct"
+                         href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=20790">
+                          <i class="icondmx-bct">
+                              <img src="./images/dathongbao.png" />
+                          </i>
+                      </a>
+                  </li>
+              </ul>
+              <ul class="colfoot col4">
+                  <li>
+                      <strong>Social media</strong>
+                      <a target="_blank" href="#" class="linkfb">
+                          <img src="./images/facebookHoangLongVu.png"
+                               alt="facebook hoang long vu" />
+                      </a>
+                      <a target="_blank" href="#" class="linkyt">
+                          <img src="./images/youtubeHoangLongVu.png"
+                               alt="youtube hoang long vu" />
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          <div class="catehot">
+              <strong>Danh mục sản phẩm nổi bật</strong>
+              <ul class="item-hot">
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Bút thử điện không tiếp xúc</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Máy cắt 7",180mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i> <a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-caret-right"></i><a href="#">Kềm bấm 250mm</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="rowfoot2">
+              <p>
+                  © 2018. Công ty cổ phần ABC. GPDKKD: 0303217354 do sở KH &amp; ĐT
+                  TP.HCM cấp ngày 02/01/2007. GP số 57/GP-TTĐT do Sở TTTT TP HCM cấp
+                  ngày 30/07/2018. <br />
+                  Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Quận 1, TP.Hồ Chí Minh.
+                  Điện thoại: 234565643. Email: ABC. Chịu trách nhiệm nội dung: ABC.
+                  <a rel="nofollow" href="/dieu-khoan-su-dung">Xem chính sách sử dụng web</a>
+              </p>
+          </div>
+      </footer>
+  </body>
+</html>

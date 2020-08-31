@@ -281,7 +281,6 @@ header {
           -webkit-transform: none;
           transform: none;
         }
-        
       }
 
       .has-sub-menu::before {
@@ -301,7 +300,7 @@ header {
 
     .sub-menu {
       .has-sub-menu {
-        font-size: 14px;
+        font-size: 13px;
         color: $color-blue;
         font-weight: bold;
         margin-bottom: 5px;
@@ -326,7 +325,7 @@ header {
 
     .has-sub-menu:hover + .sub-menu {
       visibility: visible;
-      height: 350px;
+      height: 380px;
     }
 
     .sub-menu:hover {
@@ -334,12 +333,21 @@ header {
       height: 400px;
     }
 
-    .sub-menu {
+    .sub-menu.left-menu {
       width: 900px;
+      left: -300px;
+      aside {
+        width: 23%;
+      }
+    }
+
+    .sub-menu {
+      width: 700px;
       top: 41px;
       aside {
-        width: 24%;
+        width: 31%;
         float: left;
+        margin-right: 10px;
         margin-top: 10px;
 
         ul {
@@ -356,7 +364,7 @@ header {
             position: relative;
 
             a {
-              font-size: 12px;
+              font-size: 13px;
               font-weight: normal;
             }
           }
@@ -374,6 +382,71 @@ header {
           }
         }
       }
+    }
+  }
+
+  .language {
+    float: right;
+    position: relative;
+    margin-right: 40px;
+    padding-top: 9px;
+
+    .main-flag {
+      position: relative;
+    }
+
+    .main-flag:after {
+      position: absolute;
+      content: "\f0d7";
+      right: -14px;
+      height: 100%;
+      font-size: 14px;
+      font-weight: bold;
+      transition: 0.2s linear;
+      font-family: "Font Awesome 5 Free";
+      color: #c1bbbb;
+      bottom: 0;
+      line-height: 22px;
+    }
+
+    .menu-language {
+      position: absolute;
+      width: 128px;
+      left: -90px;
+      padding: 0;
+      margin: 0;
+      background: #f0f0f0;
+      height: 105px;
+      transition: linear 0.1s;
+      z-index: 99;
+      padding: 5px;
+      top: 35px;
+
+      li {
+        list-style: none;
+        padding: 5px;
+        text-align: left;
+        a{
+          color: $color-black;
+        }
+      }
+
+      li:hover {
+        background: $color-gray-bold;
+      }
+    }
+
+    img {
+      display: inline-block;
+      transition: none;
+      -webkit-transform: none;
+      transform: none;
+      border: solid 1px $color-gray-bold;
+    }
+
+    img:hover {
+      transform: none;
+      -webkit-transform: none;
     }
   }
 }
@@ -1438,8 +1511,8 @@ footer {
 }
 
 img:hover {
-  transform: scale(1.2) perspective(120px) rotate(-5deg);
-  -webkit-transform: scale(1.2) perspective(120px) rotate(-5deg);
+  transform: scale(1.05) perspective(5px) rotate(0deg);
+  -webkit-transform: scale(1.05) perspective(5px) rotate(0deg);
 }
 
 img {
@@ -1627,6 +1700,10 @@ img {
         visibility: visible;
         height: 100%;
       }
+    }
+
+    .language {
+      padding-top: 13px;
     }
 
     .menu-mobile {
@@ -1943,4 +2020,51 @@ img {
       }
     }
   }
+}
+
+.bread-crum {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+    margin-right: 10px;
+
+    a {
+      color: $color-black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  li::before {
+    position: absolute;
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free" !important;
+    right: 0;
+    font-weight: 900;
+    font-size: 14px;
+  }
+
+  li:last-child::before {
+    display: none;
+  }
+}
+
+.red {
+  color: $color-red;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visibilityNone {
+  visibility: hidden !important;
+  height: 0 !important;
 }
