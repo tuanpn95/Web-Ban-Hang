@@ -380,7 +380,7 @@ header {
       line-height: 40px;
       padding-left: 20px;
       padding-right: 20px;
-      font-size: 14px;
+      font-size: 16px;
       text-transform: uppercase;
       font-weight: bold;
       color: #fff; }
@@ -552,7 +552,7 @@ header {
   cursor: pointer;
   margin-top: 2px; }
   .right-panel .title {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     padding: 10px 4px;
     text-align: center;
@@ -650,7 +650,7 @@ header {
       padding: 12px;
       vertical-align: bottom;
       width: 220px;
-      font-size: 18px; }
+      font-size: 16px; }
     .slider-full-container .title .right-slider {
       display: inline-block;
       vertical-align: initial;
@@ -731,7 +731,7 @@ header {
     text-transform: uppercase;
     margin-left: -1px; }
     .slider-container .title i {
-      font-size: 21px;
+      font-size: 24px;
       color: #fff;
       background: #189eff;
       padding: 15px; }
@@ -739,7 +739,7 @@ header {
       display: inline-block;
       padding: 15px;
       vertical-align: bottom;
-      font-size: 14px; }
+      font-size: 16px; }
     .slider-container .title .nav-slider {
       text-align: right;
       vertical-align: top;

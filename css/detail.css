@@ -575,9 +575,10 @@
           list-style: none; }
           .main .detail-information .technology-detail ul li span {
             width: 50%;
-            font-weight: bold; }
+            /*font-weight: bold;*/ }
           .main .detail-information .technology-detail ul li span:first-child {
-            color: #212529; }
+            font-weight: bold;
+            color: #333; }
           .main .detail-information .technology-detail ul li span:last-child {
             color: #189eff;
             padding-left: 5px; }
