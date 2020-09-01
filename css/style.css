@@ -296,12 +296,13 @@ header {
       line-height: 22px; }
     .main-navigation .language .menu-language {
       position: absolute;
-      width: 128px;
+      width: 130px;
       left: -90px;
       padding: 0;
       margin: 0;
       background: #f0f0f0;
       height: 105px;
+      overflow: hidden;
       transition: linear 0.1s;
       z-index: 99;
       padding: 5px;
