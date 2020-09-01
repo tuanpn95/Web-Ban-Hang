@@ -44,7 +44,7 @@ header {
       header .search_form .search_box .inputSearch {
         border: none;
         height: 40px;
-        width: 400px;
+        width: 387px;
         padding: 5px; }
       header .search_form .search_box .btn-search {
         cursor: pointer;
@@ -1027,7 +1027,7 @@ footer {
           font-weight: 700;
           margin-bottom: 8px; }
         footer .rowfoot1 .colfoot li .icondmx-bct img {
-          width: 190px;
+          width: 125px;
           margin-left: -7px; }
         footer .rowfoot1 .colfoot li .linkfb {
           display: block;
