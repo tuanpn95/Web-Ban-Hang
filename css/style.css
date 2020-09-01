@@ -232,7 +232,8 @@ header {
       position: absolute;
       height: 0;
       background: #fff;
-      z-index: 999; }
+      z-index: 999; 
+      overflow: hidden;}
     .main-navigation .main-category .has-sub-menu:hover + .sub-menu {
       visibility: visible;
       height: 380px; }
@@ -1112,12 +1113,12 @@ img {
 .icon-close {
   visibility: hidden;
   height: 0;
-  transition: 0.05s linear;}
+  transition: 0.2s linear;}
 
 .sub-menu {
     visibility: hidden;
     height: 0;
-    transition: 0.05s linear;}
+    transition: 0.2s linear;}
 
 .main-navigation .main-menu {
   display: none; }

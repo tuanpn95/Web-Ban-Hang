@@ -35,8 +35,9 @@
       padding: 0 10px;
       visibility: visible;
       height: 100%;
-      transition: 0.05s linear;
-      height: 380px; }
+      transition: 0.2s linear;
+      height: 380px;
+      overflow: hidden; }
       .main .category .listcate ul li,
       .main .category .brand ul li, .main .category-mobile .listcate ul li,
       .main .category-mobile .brand ul li {
