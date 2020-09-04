@@ -798,6 +798,71 @@ body {
       text-align: right;
       padding-right: 5px; }
 
+  /*item-description*/
+  .slider-full-container .pro-item-des {
+    position: relative;
+    margin: 15px;}
+    .slider-full-container .pro-item-des .img-pro {
+      overflow: hidden;
+      text-align: center;
+      margin: 10px;
+      min-height: 172px; }
+      .slider-full-container .pro-item-des .img-pro img {
+        max-height: 180px;
+        margin: auto; }
+    .slider-full-container .pro-item-des .pro-name {
+      font-size: 14px;
+      line-height: 15px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      text-align: center; }
+      .slider-full-container .pro-item-des .pro-name a {
+        color: #212529; }
+    .slider-full-container .pro-item-des .info-price {
+      display: block;}
+      .slider-full-container .pro-item-des .info-price .m-price {
+        float: left;
+        display: inline-block;
+        position: relative;
+        font-size: 16px;
+        color: red;
+        font-weight: 600;
+        text-align: left;
+        vertical-align: middle;}
+      .slider-full-container .pro-item-des .info-price .f-price {
+        float: right;
+        display: inline-block;
+        position: relative;
+        font-size: 16px;
+        font-weight: 400;
+        color: #212529;
+        text-align: right;
+        vertical-align: middle;}
+    .slider-full-container .pro-item-des .description {
+      width: 100%;
+      height: 75px;
+      line-height: 25px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* number of lines to show */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;}
+    .slider-full-container .pro-item-des span {
+      height: 20px;
+      display: block; }
+    .slider-full-container .pro-item-des .saleoff {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 52px;
+      height: 24px;
+      color: #fff;
+      font-size: 1.2em;
+      background: url("../images/price_tag.png") no-repeat;
+      text-align: right;
+      padding-right: 5px; }
+
+
 .slider-container {
   margin-top: 15px;
   padding: 0;
