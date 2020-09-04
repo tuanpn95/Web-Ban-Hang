@@ -354,12 +354,12 @@ body {
   z-index: 1; }
 
 .main-navigation::before {
-  left: calc((100% - 1200px) / 2 - 90px);
+  left: calc((100% - 1200px) / 2 - 96px);
   background: url("../images/left.png") no-repeat top right;
-  background-size: 127px; }
+  background-size: 128px; }
 
 .main-navigation::after {
-  right: calc((100% - 1200px) / 2 - 94px);
+  right: calc((100% - 1200px) / 2 - 97px);
   background: url("../images/right.png") no-repeat top left;
   background-size: 128px; }
 
@@ -540,7 +540,7 @@ body {
   #sync1.owl-theme .owl-prev {
     left: 10px; }
   #sync1.owl-theme .owl-next {
-    right: 10px; }
+    right: 20px; }
 
 #sync2 .owl-item {
   border: solid 1px #c1bbbb;

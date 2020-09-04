@@ -106,7 +106,7 @@ $(document).ready(function () {
         margin : 5
       },
       1200: {
-        items: 15,
+        items: 11,
       }
     },
   });
