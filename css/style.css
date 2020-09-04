@@ -824,6 +824,18 @@ body {
       color: #fff;
       background: #189eff;
       padding: 15px; }
+    .slider-container .title .icon-day {
+      width: 60px;
+      font-size: 24px;
+      color: #fff;
+      background: #189eff;
+      padding: 10.32px 18px; }
+    .slider-container .title .icon-month {
+      width: 60px;
+      font-size: 24px;
+      color: #fff;
+      background: #189eff;
+      padding: 17px 17.92px; }
     .slider-container .title span {
       display: inline-block;
       padding: 15px;
