@@ -70,6 +70,7 @@
             cursor: pointer; }
           .main .main-information .images-main .small-image .image-galery img {
             height: 50px;
+			
             display: inline-block; }
       .main .main-information .images-main .special-point {
         max-height: 120px;
