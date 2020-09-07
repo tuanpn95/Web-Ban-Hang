@@ -809,6 +809,7 @@ body {
       min-height: 172px; }
       .slider-full-container .pro-item-des .img-pro img {
         max-height: 180px;
+        max-width: 180px;
         margin: auto; }
     .slider-full-container .pro-item-des .pro-name {
       font-size: 16px;
