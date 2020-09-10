@@ -1329,7 +1329,8 @@ img {
   header .logo {
     display: inline-block;
     width: 150px;
-    margin: 0 0 10px 15px; }
+    margin: 0 0 10px 15px;
+    vertical-align: middle; }
   header .search_form {
     width: 100%;
     margin-top: 5px; }
@@ -1380,6 +1381,7 @@ img {
     margin-right: 15px;
     display: inline-block; 
     float: right;
+    vertical-align: middle;
   }
     header .mobile-component .search_icon_wrapper {
       display: inline-block;
