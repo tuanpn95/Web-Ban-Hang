@@ -458,7 +458,7 @@ body {
           z-index: 1;
           top: 10px;
           right: 10px;
-          font-size: 12px;
+          font-size: 1.2em;
           font-weight: bold;
           padding: 0 10px;
           color: #fff;
@@ -1297,7 +1297,34 @@ img {
   .main-navigation::after,
   .main-navigation::before {
     display: none; } }
-
+@media all and (max-width:900px), (max-device-width:900px){
+  .dailydeals-product .bigdeal-item .item-wrap .products-thumb .sale-off {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    border-radius: 2px;
+    line-height: 20px;
+    background: url(../images/price_tag.png) no-repeat;
+    font-weight: normal; } 
+  .slider-container .pro-item .saleoff {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52px;
+    height: 24px;
+    color: #fff;
+    font-size: 1.2em;
+    background: url(../images/price_tag.png) no-repeat;
+    text-align: right;
+    padding-right: 5px; }}
 @media (max-width: 780px) {
   header .logo {
     display: inline-block;
