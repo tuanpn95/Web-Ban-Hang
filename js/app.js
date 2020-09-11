@@ -1,4 +1,6 @@
-$(document).ready(function () {
+
+
+  $(window).on('load', function() {
   var sync1 = $("#sync1");
   var sync2 = $("#sync2");
   var slidesPerPage = 4;

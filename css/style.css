@@ -531,7 +531,7 @@ body {
   position: relative; }
   #sync1.owl-theme .owl-next,
   #sync1.owl-theme .owl-prev {
-    width: 22px;
+    width: 40px;
     height: 40px;
     margin-top: -20px;
     position: absolute;
@@ -1264,14 +1264,14 @@ footer {
 .col4 {
   width: 15% !important; }
 
-img:hover {
+/*img:hover {
   transform: scale(1.05) perspective(5px) rotate(0deg);
   -webkit-transform: scale(1.05) perspective(5px) rotate(0deg); }
 
 img {
   transition: all 1s;
   -webkit-transform: scale(1);
-  transform: scale(1); }
+  transform: scale(1); }*/
 
 .mobile-component {
   display: none; }
@@ -1294,6 +1294,10 @@ img {
 
 .main-navigation .main-menu {
   display: none; }
+
+.owl-carousel,.owl-stage-outer,.owl-stage,.owl-item,.owl-item .item,.owl-wrapper{transition: none;} 
+.owl-carousel:after,.owl-carousel:before,.owl-stage-outer:after,.owl-stage-outer:after,.owl-stage:after,.owl-stage:before,.owl-item:after,.owl-item:before,.owl-item .item:after,.owl-item .item:before{transition: none;}
+
 
 @media (max-width: 1366px) {
   .main-navigation::after,
