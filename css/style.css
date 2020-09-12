@@ -637,14 +637,23 @@ header .search_form .header-search-link ul li:last-child:after {
   margin-bottom: 5px;
   margin-top: 10px;
 }
+
+.dailydeals-product .bigdeal-item .item-wrap .item-content .likeshare {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .dailydeals-product .bigdeal-item .item-wrap .item-content .add-info a {
   color: #212529;
   font-weight: bold;
-  margin-right: 10px;
-  border: solid 1px #c1bbbb;
-  padding: 8px;
+  /* margin-right: 10px; */
+  padding: 0 8px;
   border-radius: 3px;
+  line-height: 18px;
   text-decoration: none;
+  vertical-align: top;
+  display: inline-block;
+  text-transform: uppercase;
 }
 .dailydeals-product .bigdeal-item .item-wrap .item-content .add-info a:hover {
   color: #189eff;
