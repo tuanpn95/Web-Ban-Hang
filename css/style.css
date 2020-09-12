@@ -546,20 +546,20 @@ header .search_form .header-search-link ul li:last-child:after {
 .dailydeals-product .bigdeal-item .item-wrap .products-thumb .sale-off {
   position: absolute;
   z-index: 1;
-  top: 10px;
+  top: 5px;
   right: 10px;
-  font-size: 1.2em;
+  font-size: 13px;
   font-weight: bold;
-  padding: 0 10px;
+  padding: 7px 1px;
   color: #fff;
   text-align: center;
   display: inline-block;
-  height: 20px;
+  height: 44px;
   border-radius: 2px;
-  line-height: 20px;
-  background: url(../images/price_tag.png) no-repeat;
-  font-weight: normal;
-}
+  background: url(../images/price-tag-2.png) no-repeat;
+  background-size: cover;
+  }
+
 .dailydeals-product
   .bigdeal-item
   .item-wrap
@@ -962,15 +962,19 @@ header .search_form .header-search-link ul li:last-child:after {
 }
 .slider-full-container .pro-item .saleoff {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 52px;
-  height: 24px;
+  z-index: 1;
+  top: 5px;
+  right: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 1px;
   color: #fff;
-  font-size: 1.2em;
-  background: url("../images/price_tag.png") no-repeat;
-  text-align: right;
-  padding-right: 5px;
+  text-align: center;
+  display: inline-block;
+  height: 44px;
+  border-radius: 2px;
+  background: url(../images/price-tag-2.png) no-repeat;
+  background-size: cover;
 }
 
 /*item-description*/
@@ -1041,15 +1045,19 @@ header .search_form .header-search-link ul li:last-child:after {
 }
 .slider-full-container .pro-item-des .saleoff {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 52px;
-  height: 24px;
+  z-index: 1;
+  top: 5px;
+  right: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 1px;
   color: #fff;
-  font-size: 1.2em;
-  background: url(../images/price_tag.png) no-repeat;
-  text-align: right;
-  padding-right: 5px;
+  text-align: center;
+  display: inline-block;
+  height: 44px;
+  border-radius: 2px;
+  background: url(../images/price-tag-2.png) no-repeat;
+  background-size: cover;
 }
 
 .slider-container {
@@ -1163,15 +1171,19 @@ header .search_form .header-search-link ul li:last-child:after {
 }
 .slider-container .pro-item .saleoff {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 52px;
-  height: 24px;
+  z-index: 1;
+  top: 5px;
+  right: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 1px;
   color: #fff;
-  font-size: 1.2em;
-  background: url(../images/price_tag.png) no-repeat;
-  text-align: right;
-  padding-right: 5px;
+  text-align: center;
+  display: inline-block;
+  height: 44px;
+  border-radius: 2px;
+  background: url(../images/price-tag-2.png) no-repeat;
+  background-size: cover;
 }
 
 .list {
@@ -1250,15 +1262,19 @@ header .search_form .header-search-link ul li:last-child:after {
 }
 .list .bottom .pro-item .saleoff {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 52px;
-  height: 24px;
+  z-index: 1;
+  top: 5px;
+  right: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 1px;
   color: #fff;
-  font-size: 1.2em;
-  background: url("../images/price_tag.png") no-repeat;
-  text-align: right;
-  padding-right: 5px;
+  text-align: center;
+  display: inline-block;
+  height: 44px;
+  border-radius: 2px;
+  background: url(../images/price-tag-2.png) no-repeat;
+  background-size: cover;
 }
 .list .pagination {
   width: 100%;
@@ -1706,6 +1722,15 @@ img {
   }
 }
 @media (max-width: 780px) {
+
+  .list .bottom .wid-4 {
+    width: calc(100% - 30px);
+    padding: 15px;
+    margin: 15px;
+    color: black;
+    border-bottom: solid 1px #cdcdcd;
+  }
+  
   header .logo {
     display: inline-block;
     width: 150px;
