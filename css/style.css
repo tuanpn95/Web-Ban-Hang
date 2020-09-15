@@ -558,6 +558,7 @@ header .search_form .header-search-link ul li:last-child:after {
   border-radius: 2px;
   background: url(../images/price-tag-2.png) no-repeat;
   background-size: cover;
+  width: 36px;
   }
 
 .dailydeals-product
