@@ -1901,11 +1901,13 @@ img {
     position: absolute;
     content: "\f067";
     right: 10px;
-    height: 100%;
+    height: auto;
     font-size: 12px;
     font-weight: bold;
     transition: 0.2s linear;
     font-family: "Font Awesome 5 Free";
+    top: 50%;
+    transform: translateY(-50%);
   }
   .main-navigation .menu-mobile ul li .sub-menu {
     visibility: hidden;
@@ -1927,6 +1929,7 @@ img {
     font-size: 12px;
     font-weight: bold;
     font-family: "Font Awesome 5 Free";
+    height: auto;
   }
   .main-navigation .menu-mobile ul li aside {
     border-top: solid 1px #c1bbbb;
