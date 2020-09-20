@@ -197,3 +197,17 @@ img:hover {
   .main .top-news {
     width: 100%;
     padding-left: 15px; } }
+
+  .main .list-news .news-related li {
+    width: 100%;
+    padding: 10px;
+    list-style: none;
+    display: inline-block; }
+    .main .list-news .news-related li img {
+      width: 100%; }
+    .main .list-news .news-related li a {
+      font-size: 15px;
+      color: #212529;
+      margin-top: 10px;
+      font-weight: bold;
+      display: block; }
