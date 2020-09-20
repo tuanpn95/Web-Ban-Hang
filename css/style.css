@@ -1036,6 +1036,7 @@ header .search_form .header-search-link ul li:last-child:after {
   color: #212529;
   text-align: right;
   vertical-align: middle;
+  padding: 2px;
 }
 .slider-full-container .pro-item-des .description {
   padding-top: 10px;
