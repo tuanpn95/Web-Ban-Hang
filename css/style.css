@@ -174,7 +174,7 @@ header .search_form .header-search-link ul li:last-child:after {
 }
 
 .banner {
-  display: block;
+  display: none;
   background: #fef200;
 }
 .banner img {
