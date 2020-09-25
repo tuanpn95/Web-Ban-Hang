@@ -1177,6 +1177,7 @@ header .search_form .header-search-link ul li:last-child:after {
   font-size: 16px;
   font-weight: 700;
   text-align: center;
+  color: black;
 }
 .slider-container .pro-item span {
   height: 20px;
