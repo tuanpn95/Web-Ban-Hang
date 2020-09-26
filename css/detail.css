@@ -31,11 +31,13 @@
       padding: 10px; }
       .main .main-information .images-main .main-image {
         border: solid 1px #c1bbbb;
-        height: 330px;
+        height: auto;
         margin-bottom: 10px; }
         .main .main-information .images-main .main-image img {
-          height: 330px;
+          width: 100%;
+          margin: auto;
           padding: 2px; }
+    
       .main .main-information .images-main .owl-theme {
         position: relative; }
         .main .main-information .images-main .owl-theme .owl-next,
@@ -58,9 +60,10 @@
       .main .main-information .images-main .small-image {
         margin-bottom: 20px; }
         .main .main-information .images-main .small-image .image-galery {
-          width: 82px;
+          width: 24%;
+          height: auto;
           display: inline-block;
-          margin-right: 6px;
+          margin: auto;
           border: solid 1px #c1bbbb;
           margin: auto;
           text-align: center;
@@ -69,8 +72,8 @@
           .main .main-information .images-main .small-image .image-galery img:hover {
             cursor: pointer; }
           .main .main-information .images-main .small-image .image-galery img {
-            height: 50px;
-			
+            height: auto;
+            width: 100%;
             display: inline-block; }
       .main .main-information .images-main .special-point {
         max-height: 120px;
@@ -740,4 +743,5 @@
     border-top: solid 1px #c1bbbb;
     margin: 0;
     padding: 10px;
-    float: none; } }
+    float: none; } 
+  }
