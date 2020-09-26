@@ -646,6 +646,9 @@
     top: 6px;
     left: 0;
   }
+  .policy .chpr a:hover {
+    color: #0085d9;
+  }
   .policy .shpr:before {
     content: '';
     background: url(../images/icon/delivery-truck.svg) 0 0 no-repeat;
@@ -691,6 +694,26 @@
   .italictext{
     font-style: italic;
   }
+  .layerstore {
+    position: absolute;
+    display: none;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    z-index: 9;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.3);
+  }
+  .layerstore li{
+    list-style-type: none;
+  }
+
+
+
 
 @media (max-width: 780px) {
   .main .bread-crum {

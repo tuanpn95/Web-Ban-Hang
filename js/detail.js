@@ -38,3 +38,12 @@ function viewMoreSelling(){
   $('.viewmorekeyselling').css('display','none');
   $('.special-point').css('max-height','none');
 }
+
+function viewStore(){
+  var x = document.getElementById("showstore");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
