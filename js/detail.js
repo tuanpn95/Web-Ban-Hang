@@ -30,6 +30,7 @@ $(document).ready(function () {
 
 function showArticle(){
   $('#function-description').css("height", "auto");
+  $('#function-description').css("max-height", "none");
   $('.show-more').css("display","none");
 }
 
