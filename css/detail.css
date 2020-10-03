@@ -169,10 +169,10 @@
           margin-top: 0;
           padding: 10px;
           text-transform: uppercase;
-          background: #189eff;
+          background: #f7f7f7;
           border-bottom: 1px solid #ddd;
           margin-right: 0;
-          color: #fff;
+          color: #333;
           display: block;
           font-size: 16px; }
         .main .main-information .price_sale .area_promotion span.promo {
@@ -344,7 +344,7 @@
         padding: 10px 0;
         line-height: 22px;
         position: relative;
-        border-bottom: 1px solid #e5e5e5; }
+        /*border-bottom: 1px solid #e5e5e5;*/ }
         .main .main-information .price_sale .specialInstall ul {
           display: block;
           list-style-type: disc;
@@ -516,7 +516,10 @@
       .main .detail-information .content-detail .imgNote {
         display: block; }
         .main .detail-information .content-detail .imgNote img {
-          width: 100%; }
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;}
       .main .detail-information .content-detail .box-article {
         display: block; }
         .main .detail-information .content-detail .box-article .area_article {
@@ -555,7 +558,10 @@
           vertical-align: middle;
           margin: -2px 0 0 5px; }
         .main .detail-information .content-detail .box-article img {
-          width: 100%; }
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;}
         .main .detail-information .content-detail .box-article h3 {
           font-size: 16px;
           font-weight: bold; }
