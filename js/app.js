@@ -94,7 +94,7 @@
   // DOi Tac
   $(".partner .owl-carousel").owlCarousel({
     items: 2,
-    margin: 30,
+    margin: 12,
     smartSpeed: 450,
     loop: true,
     autoplay: true,
@@ -108,14 +108,14 @@
         margin : 5
       },
       1200: {
-        items: 11,
+        items: 14,
       }
     },
   });
 
   $(".partner-slider .owl-carousel").owlCarousel({
     items: 10,
-    margin: 30,
+    margin: 12,
     smartSpeed: 450,
     loop: true,
     autoplay: true,
@@ -129,7 +129,7 @@
         margin: 5,
       },
       1200: {
-        items: 9,
+        items: 11,
       },
     },
   });

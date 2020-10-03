@@ -776,6 +776,7 @@ header .search_form .header-search-link ul li:last-child:after {
 .right-panel .item .content-item {
   display: inline-block;
   width: 190px;
+  height: 73px;
   padding-left: 3px;
   vertical-align: middle;
 }
