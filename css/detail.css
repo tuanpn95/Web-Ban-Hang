@@ -131,6 +131,7 @@
           vertical-align: middle;
           margin-right: 5px; }
         .main .main-information .price_sale .area_price strong.dl {
+          text-decoration: line-through;
           font-size: 14px;
           color: #666;
           font-weight: normal; }
