@@ -355,6 +355,7 @@
         .main .main-information .price_sale .specialInstall p {
           margin-bottom: 0; }
           .main .main-information .price_sale .specialInstall p strong {
+            font-size: 16px;
             color: #158d1e; }
       .main .main-information .price_sale .callorder {
         display: block;
