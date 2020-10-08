@@ -354,6 +354,8 @@
           padding-left: 15px; }
         .main .main-information .price_sale .specialInstall p {
           margin-bottom: 0; }
+          .main .main-information .price_sale .specialInstall p strong {
+            color: #158d1e; }
       .main .main-information .price_sale .callorder {
         display: block;
         overflow: hidden;
