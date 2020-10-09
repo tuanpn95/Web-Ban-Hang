@@ -1688,6 +1688,18 @@ footer .rowfoot2 p a {
   color: #4a90e2;
 }
 
+footer .line-1{
+  left: 120px;
+  position: absolute;
+}
+
+footer .line-2{
+  display: block;
+  position: relative;
+  left: 120px;
+  margin-top: 10px;
+}
+
 .col1 {
   width: 21%;
 }
