@@ -48,3 +48,11 @@ function viewStore(){
     x.style.display = "block";
   }
 }
+function viewStoreTop(){
+  var x = document.getElementById("showstoretop");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
