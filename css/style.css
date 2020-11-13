@@ -468,6 +468,9 @@ header .search_form .header-search-link ul li:last-child:after {
   margin-top: 3px;
   width: calc(100% - 304px);
 }
+.slider-container .owl-carousel .owl-item {
+  min-height: 239px;
+}
 .slider .owl-carousel .owl-stage .img {
   width: 100%;
 }
