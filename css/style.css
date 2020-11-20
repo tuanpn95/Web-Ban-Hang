@@ -1110,11 +1110,9 @@ header .search_form .header-search-link ul li:last-child:after {
   height: 0;
 }
 .banner-category img{
-  position: absolute;
-    width: 100%;
-    width: auto;
-    max-width: inherit;
-    z-index: -1;
+  width: 100%;
+  max-width: inherit;
+  z-index: -1;
 }
 .banner-category img:hover {
   transform: none;
@@ -2023,9 +2021,9 @@ img {
 @media (max-width: 780px) {
 
   .list .bottom .wid-4 {
-    width: calc(100% - 30px);
-    padding: 15px;
-    margin: 15px;
+    width: calc(50% - 15px);
+    padding: 6px;
+    margin: 6px;
     color: black;
     border-bottom: solid 1px #cdcdcd;
   }
@@ -2283,8 +2281,11 @@ img {
   .slider-container .title .right-slider {
     display: none;
   }
+  .slider-container .pro-item .img-pro {
+    margin: 0;
+  }
   .slider-container .pro-item .img-pro img {
-    width: auto;
+    width: 100%;
   }
   .slider-container .slider-container-item {
     width: 100%;
@@ -2297,17 +2298,23 @@ img {
   .slider-full-container .title .right-slider {
     display: none;
   }
+  .slider-full-container .pro-item .img-pro {
+    margin: 0;
+  }
   .slider-full-container .pro-item .img-pro img {
-    width: auto;
+    width: 100%;
+  }
+  .slider-full-container .pro-item-des .img-pro {
+    margin: 0;
   }
   .slider-full-container .pro-item-des .img-pro img {
-    width: auto;
+    width: 100%;
   }
   .slider-full-container .slider-container-item {
     width: 100%;
   }
-  .banner-category{
-    display: none;
+  .banner-category img{
+    width: 100%;
   }
   .dailydeals-product .timer {
     width: auto;
