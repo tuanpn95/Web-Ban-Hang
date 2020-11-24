@@ -146,8 +146,8 @@
     responsiveClass: true,
     responsive: {
       0: {
-        items: 1,
-        margin : 5
+        items: 2,
+        margin : 2
       },
       1200: {
         items: 5,
@@ -167,8 +167,8 @@
     responsiveClass: true,
     responsive: {
       0: {
-        items: 1,
-        margin : 5
+        items: 2,
+        margin : 2
       },
       1200: {
         items: 2,
@@ -198,8 +198,8 @@
     responsiveClass: true,
     responsive: {
       0: {
-        items: 1,
-        margin : 5
+        items: 2,
+        margin : 2
       },
       1200: {
         items: 2
@@ -227,7 +227,7 @@
     responsiveClass: true,
     responsive: {
       0: {
-        items: 1,
+        items: 2,
         margin : 5,
       },
       1200: {
