@@ -29,4 +29,13 @@ $(document).ready(function () {
     $(this).toggleClass("expand");
     $(submenuElement).toggleClass("visibilityNone");
   });
+
+  $('.listcate ul li a').click(function(){
+    $('.listcate ul li a').removeClass('active')
+    $(this).addClass('active')
+  });
+  $('.brand ul li a').click(function(){
+    $('.brand ul li a').removeClass('active')
+    $(this).addClass('active')
+  });
 });
