@@ -28,6 +28,8 @@ $(document).ready(function () {
     var submenuElement = $(this).parent().find('ul');
     $(this).toggleClass("expand");
     $(submenuElement).toggleClass("visibilityNone");
+    var scroll = $(this).parent().find('.scrollbar');
+    $(scroll).toggleClass("visibilityNone");
   });
 
   $('.listcate ul li a').click(function(){
