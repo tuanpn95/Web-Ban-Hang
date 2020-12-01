@@ -68,7 +68,9 @@
   color: #189eff;
 }
 .main .category .brand ul li a.active,
-.main .category .listcate ul li a.active {
+.main .category .listcate ul li a.active,
+.main .category-mobile .brand ul li a.active,
+.main .category-mobile .listcate ul li a.active {
   color: #007bff;
 }
 .main .category .listcate .main-cate,
