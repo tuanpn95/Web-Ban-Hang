@@ -2227,6 +2227,9 @@ img {
     position: relative;
     padding-left: 25px;
   }
+  .main-navigation .menu-mobile ul li aside .has-sub-menu a{
+    color: #212529;
+  }
   .main-navigation .menu-mobile ul li aside .has-sub-menu:before {
     position: absolute;
     content: "\f0da";

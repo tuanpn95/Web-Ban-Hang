@@ -259,8 +259,8 @@
   }
 
 
-  $('.has-sub-menu').click(function(){
-      $(this).toggleClass('show-menu');
+  $('.has-sub-menu').click(function(e){
+    $(this).toggleClass('show-menu');
   })
 
   $('.main-menu').click(function(){
