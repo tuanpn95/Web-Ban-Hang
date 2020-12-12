@@ -4,13 +4,12 @@
 }
 .main .category,
 .main .category-mobile {
-  position: sticky;
-  position: -webkit-sticky;
   top: 0;
   width: 235px;
   display: inline-block;
   vertical-align: top;
   background: #fff;
+  position: relative;
 }
 .main .category .title,
 .main .category-mobile .title {
@@ -42,9 +41,6 @@
   margin-top: 14px;
   padding: 0 10px;
   visibility: visible;
-  height: 100%;
-  transition: 0.2s linear;
-  overflow: hidden;
 }
 .main .category .listcate ul li,
 .main .category .brand ul li,
@@ -53,6 +49,8 @@
   list-style: none;
   padding: 7px 0px 7px 0px;
   font-weight: bold;
+  width: 100%;
+  padding-right: 0;
 }
 .main .category .listcate ul li a,
 .main .category .brand ul li a,
@@ -371,6 +369,9 @@
 /*danh muc san pham*/
 .main .category .listcate ul.list-catalog-sub {
   margin-top: 0;
+  overflow: inherit;
+  padding-right: 0;
+  width: 100%;
 }
 .main .category .listcate .catalog-sub-item {
   position: relative;
@@ -418,10 +419,11 @@
   background-color: #fff;
   position: absolute;
   top: 0;
-  left: 230px;
+  left: 225px;
   z-index: 99;
   border: 1px solid #eee;
   display: none;
+  padding-right: 0;
 }
 .main .category .listcate .list-catalog-sub-children {
   background-color: #fff;
@@ -460,7 +462,7 @@
   top: 11px;
   background-size: 10px;
 }
-.main .category .listcate .catalog-sub-item:hover .list-catalog-sub-children, .main .category .listcate .catalog-sub-item.x-hover .list-catalog-sub-children {
+.main .category .listcate .catalog-sub-item:hover > .list-catalog-sub-children, .main .category .listcate .catalog-sub-item.x-hover > .list-catalog-sub-children {
   display: block;
   padding-left: 0;
   box-shadow: 3px 1px 4px 0 #33333340;
