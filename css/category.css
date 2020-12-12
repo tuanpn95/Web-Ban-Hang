@@ -2,14 +2,15 @@
   padding: 0;
   position: relative;
 }
+
 .main .category,
 .main .category-mobile {
   top: 0;
   width: 235px;
-  display: inline-block;
   vertical-align: top;
   background: #fff;
   position: relative;
+  display: inline-block;
 }
 .main .category .title,
 .main .category-mobile .title {
@@ -56,6 +57,7 @@
 .main .category .brand ul li a,
 .main .category-mobile .listcate ul li a,
 .main .category-mobile .brand ul li a {
+  text-decoration: none;
   color: #212529;
 }
 .main .category .listcate ul li a:hover,
@@ -324,7 +326,7 @@
 .scrollbar
 {
 	float: left;
-	height: 300px;
+	height: 350px;
 	width: 100%;
 	background: #FFF;
 	overflow-y: scroll;
@@ -377,7 +379,7 @@
   position: relative;
 }
 .main .category .listcate .catalog-sub-item-link {
-  font-size: 14.5px;
+  font-size: 14px;
   padding: 6px 0;
   display: block;
   line-height: 23.1565px;
@@ -435,12 +437,6 @@
 }
 .main .category .listcate .catalog-sub-item.son1 {
   position: relative;
-}
-.main .category .listcate .catalog-sub-item-link {
-  font-size: 14.5px;
-  padding: 6px 0;
-  display: block;
-  line-height: 23.1565px;
 }
 .main .category .listcate .list-catalog-sub-children .icon-sub-item {
   display: none;
