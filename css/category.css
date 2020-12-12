@@ -21,7 +21,7 @@
   text-transform: uppercase;
   padding: 15px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .main .category .listcate span,
@@ -29,7 +29,6 @@
 .main .category-mobile .listcate span,
 .main .category-mobile .brand span {
   text-transform: uppercase;
-  padding: 10px;
   background: #fff;
   color: #189eff;
   width: 100%;
@@ -40,7 +39,7 @@
 .main .category .brand ul,
 .main .category-mobile .listcate ul,
 .main .category-mobile .brand ul {
-  margin: 0;
+  margin-top: 14px;
   padding: 0 10px;
   visibility: visible;
   height: 100%;
@@ -52,7 +51,7 @@
 .main .category-mobile .listcate ul li,
 .main .category-mobile .brand ul li {
   list-style: none;
-  padding: 10px;
+  padding: 7px 0px 7px 0px;
   font-weight: bold;
 }
 .main .category .listcate ul li a,
@@ -77,8 +76,10 @@
 .main .category .brand .main-cate,
 .main .category-mobile .listcate .main-cate,
 .main .category-mobile .brand .main-cate {
+  margin-top: 10px;
   position: relative;
   cursor: pointer;
+  font-size: 15px;
 }
 .main .category .listcate .main-cate::after,
 .main .category .brand .main-cate::after,
@@ -389,6 +390,7 @@
   content: "";
   right: 3px;
   top: 11px;
+  margin-top: 7px;
   background-size: 10px;
 }
 .main .category .listcate .icon-sub-item {
@@ -404,8 +406,8 @@
   padding-right: 15px;
 }
 .main .category .listcate .catag-title-sub-item {
+  color: #000;
   padding-right: 5px;
-  padding-left: 40px;
   display: table-cell;
 }
 .main .category .listcate .count-among {
@@ -451,11 +453,6 @@
 
 .main .category .listcate .catalog-item-has-children .catag-title-sub-item {
   padding-right: 15px;
-}
-.main .category .listcate .catag-title-sub-item {
-  padding-right: 5px;
-  padding-left: 40px;
-  display: table-cell;
 }
 .main .category .listcate .catalog-item-has-children:hover .catalog-sub-item-link.arrow:before, .main .category .listcate .catalog-item-has-children.x-hover .catalog-sub-item-link.arrow:before {
   background: url(../images/arrow-right.png)no-repeat;
