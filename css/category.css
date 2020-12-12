@@ -469,21 +469,8 @@
   padding-left: 0;
   box-shadow: 3px 1px 4px 0 #33333340;
 }
-.main .category .listcate .list-catalog-sub-children {
-  width: 228px;
-  background-color: #fff;
-  position: absolute;
-  top: 0;
-  left: 244px;
-  z-index: 99;
-  border: 1px solid #eee;
-  display: none;
-}
-.main .category .listcate .catalog-sub-item:hover .list-catalog-sub-children, .main .category .listcate .catalog-sub-item.x-hover .list-catalog-sub-children {
-  display: block;
-  padding-left: 0;
-  box-shadow: 3px 1px 4px 0 #33333340;
-}
+
+
 
 
 
