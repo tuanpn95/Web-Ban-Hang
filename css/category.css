@@ -77,7 +77,6 @@
 .main .category-mobile .listcate .main-cate,
 .main .category-mobile .brand .main-cate {
   margin-top: 10px;
-  position: relative;
   cursor: pointer;
   font-size: 15px;
 }
@@ -433,9 +432,6 @@
   position: relative;
 }
 .main .category .listcate .catalog-sub-item.son1 {
-  position: relative;
-}
-.main .category .listcate .catalog-sub-item {
   position: relative;
 }
 .main .category .listcate .catalog-sub-item-link {
