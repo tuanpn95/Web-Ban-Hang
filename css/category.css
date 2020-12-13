@@ -28,7 +28,6 @@
 .main .category .brand span,
 .main .category-mobile .listcate span,
 .main .category-mobile .brand span {
-  text-transform: uppercase;
   background: #fff;
   color: #189eff;
   width: 100%;
@@ -48,7 +47,7 @@
 .main .category-mobile .listcate ul li,
 .main .category-mobile .brand ul li {
   list-style: none;
-  padding: 7px 0px 7px 0px;
+  padding: 3px 0px 3px 0px;
   font-weight: bold;
   width: 100%;
   padding-right: 0;
