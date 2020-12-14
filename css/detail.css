@@ -543,7 +543,7 @@
         .main .detail-information .content-detail .box-article .show-more::before {
           height: 55px;
           margin-top: -45px;
-          content: -webkit-gradient(linear, 0% 100%, 0% 0, from(white), color-stop(0.2, white), to(rgba(255, 255, 255, 0)));
+          /*content: -webkit-gradient(linear, 0% 100%, 0% 0, from(white), color-stop(0.2, white), to(rgba(255, 255, 255, 0)));*/
           display: block; }
         .main .detail-information .content-detail .box-article .readmore {
           width: 240px;
