@@ -536,6 +536,10 @@
           color: #333;
           line-height: 22px;
           padding-bottom: 10px; }
+          .main .detail-information .content-detail .box-article .area_article h2{
+            margin-top: 0;
+          }
+        
         .main .detail-information .content-detail .box-article .show-more::before {
           height: 55px;
           margin-top: -45px;
