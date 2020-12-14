@@ -732,8 +732,11 @@
     height: 1px;
   }
   .address-store {
-    margin: 10px;
+    margin: 7px;
     font-size: 15px;
+  }
+  .address-store em {
+    font-size: 13px;
   }
   .main .main-information .price_sale .area_price strong.gia {
     color: #288ad6;
