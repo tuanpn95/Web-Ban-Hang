@@ -519,7 +519,8 @@
       display: inline-block;
       width: 70%;
       padding-right: 40px;
-      padding-left: 15px; }
+      padding-left: 15px;
+      min-height: 320px; }
       .main .detail-information .content-detail .imgNote {
         display: block; }
         .main .detail-information .content-detail .imgNote img {
