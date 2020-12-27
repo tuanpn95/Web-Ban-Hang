@@ -9,7 +9,7 @@
   width: 235px;
   vertical-align: top;
   background: #fff;
-  position: relative;
+  position: sticky;
   display: inline-block;
 }
 .main .category .title,
