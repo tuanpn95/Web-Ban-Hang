@@ -1314,9 +1314,9 @@
                   <div class="top">
                       <span> Giao Hàng Siêu Tốc</span>
                       <div class="dropdownlist-option">
-                          <select class="brand-option">
-                              <option value="0">Tất cả thương hiệu</option>
-                              <option value="0">Dewait</option>
+                          <select class="brand-option" onchange="javascript:handleSelect(this)">
+                              <option value="#">Tất cả thương hiệu</option>
+                              <option value="https://stackoverflow.com/questions/7077770/window-location-href-and-window-open-methods-in-javascript">Dewait</option>
                               <option value="0">Kakaaa</option>
                               <option value="0">ABC</option>
                               <option value="0">XTZ</option>
@@ -1324,7 +1324,7 @@
                               <option value="0">hokio</option>
                           </select>
 
-                          <select class="sort-option">
+                          <select class="sort-option" onchange="javascript:handleSelect(this)">
                               <option value="0">Sản Phẩm Chọn Lọc</option>
                               <option value="0">Tên: A-Z</option>
                               <option value="0">Tên: Z-A</option>

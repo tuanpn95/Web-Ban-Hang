@@ -1,3 +1,8 @@
+
+function handleSelect(elm)
+{
+  window.location.href = elm.value;
+}
 $(document).ready(function () {
 
   /*var elementPosition = $(".category").offset();
@@ -24,6 +29,11 @@ $(document).ready(function () {
     }
   });*/
 
+
+  
+  $('.listcate').click(function(){
+    $(this).toggleClass("set-height-35px");
+  });
   $('.main-cate').click(function(){
     var submenuElement = $(this).parent().find('ul');
     $(this).toggleClass("expand");
