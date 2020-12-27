@@ -313,7 +313,7 @@ header .search_form .header-search-link ul li:last-child:after {
 }
 .main-navigation .main-category .sub-menu:hover {
   visibility: visible;
-  /*height: 400px;*/
+  height: 300px;
 }
 .main-navigation .main-category .sub-menu.left-menu {
   width: 900px;
