@@ -332,7 +332,7 @@
 }
 .force-overflow
 {
-	min-height: 300px;
+	min-height: auto;
 }
 /*checkbox brand*/
 .select-filter-item input:checked~.filter-check:after {

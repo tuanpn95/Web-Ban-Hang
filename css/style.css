@@ -313,7 +313,7 @@ header .search_form .header-search-link ul li:last-child:after {
 }
 .main-navigation .main-category .sub-menu:hover {
   visibility: visible;
-  height: 400px;
+  /*height: 400px;*/
 }
 .main-navigation .main-category .sub-menu.left-menu {
   width: 900px;
@@ -342,7 +342,7 @@ header .search_form .header-search-link ul li:last-child:after {
 .main-navigation .main-category .sub-menu aside ul li {
   display: block;
   text-align: left;
-  padding: 5px 10px;
+  padding: 3px 10px;
   position: relative;
 }
 .main-navigation .main-category .sub-menu aside ul li a {
