@@ -137,6 +137,7 @@
   background: #f0f0f0;
 }
 .main .item-list .list .top span {
+  width: 59%;
   display: inline-block;
   padding: 20px 10px;
   font-size: 18px;
@@ -146,7 +147,7 @@
 }
 .main .item-list .list .top .dropdownlist-option {
   display: inline-block;
-  width: calc(100% - 230px);
+  width: 40%;
   text-align: right;
 }
 .main .item-list .list .top .dropdownlist-option .brand-option,
