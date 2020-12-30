@@ -309,27 +309,28 @@ header .search_form .header-search-link ul li:last-child:after {
 }
 .main-navigation .main-category .has-sub-menu:hover + .sub-menu {
   visibility: visible;
-  height: 380px;
+  height: auto;
+  padding-bottom: 10px;
 }
 .main-navigation .main-category .sub-menu:hover {
   visibility: visible;
-  height: 300px;
+  height: auto;
+  padding-bottom: 10px;
 }
 .main-navigation .main-category .sub-menu.left-menu {
-  width: 1300px;
-  left: -600px;
+  left: -300px;
 }
 .main-navigation .main-category .sub-menu.left-menu aside {
-  width: 15%;
+  width: 210px;
 }
 .main-navigation .main-category .sub-menu {
-  width: 700px;
   top: 41px;
 }
 .main-navigation .main-category .sub-menu aside {
-  width: 31%;
+  width: 210px;
   float: left;
-  margin-right: 10px;
+  margin-right: 4px;
+  margin-left: 4px;
   margin-top: 10px;
 }
 .main-navigation .main-category .sub-menu aside ul {

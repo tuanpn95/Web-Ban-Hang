@@ -34,12 +34,13 @@ $(document).ready(function () {
   $('.listcate').click(function(){
     $(this).toggleClass("set-height-35px");
   });
+  $(".listcate ul").click(function(e) {
+    e.stopPropagation();
+  });
   $('.main-cate').click(function(){
     var submenuElement = $(this).parent().find('ul');
     $(this).toggleClass("expand");
     $(submenuElement).toggleClass("visibilityNone");
-    var scroll = $(this).parent().find('.scrollbar');
-    $(scroll).toggleClass("visibilityNone");
   });
 
   $('.listcate ul li a').click(function(){

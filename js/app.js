@@ -295,6 +295,19 @@
   $(".sub-flag").click(function(){
     $('.main-flag').find('img').attr('src',$(this).find('img').attr('src'));
   });
-
+  
+  $(".main-navigation .main-category .has-sub-menu").hover(function(){
+    var context = $(this).parent().children();
+    console.log($(this).parent().children('.sub-menu'));
+    var count = context.children('aside').length;
+    console.log(count);
+    var widthas = count*220;
+    $(this).parent().children('.sub-menu').width(widthas);
+    var leftmenu = $(this).parent().children('.left-menu');
+    if(count > 3){
+      var widthleft =0 - ((count - 3)*220);
+      leftmenu.css('left', widthleft);
+    }
+  });
 
 });
