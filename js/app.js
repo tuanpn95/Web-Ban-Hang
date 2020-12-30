@@ -303,7 +303,7 @@
     $(this).parent().children('.sub-menu').width(widthas);
     var leftmenu = $(this).parent().children('.sub-menu');
     if(count > 3){
-      var widthleft =0 - ((count/2)*220);
+      var widthleft =0 - ((count/2)*150);
       leftmenu.css('left', widthleft);
     }
   });
