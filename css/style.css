@@ -306,16 +306,22 @@ header .search_form .header-search-link ul li:last-child:after {
   background: #fff;
   z-index: 999;
   overflow: hidden;
+
+  
 }
 .main-navigation .main-category .has-sub-menu:hover + .sub-menu {
   visibility: visible;
   height: auto;
   padding-bottom: 10px;
+
+  
 }
 .main-navigation .main-category .sub-menu:hover {
   visibility: visible;
   height: auto;
   padding-bottom: 10px;
+
+  transition:max-height 0.25s ease-in-out;
 }
 .main-navigation .main-category .sub-menu.left-menu {
   left: -300px;
