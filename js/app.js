@@ -297,13 +297,19 @@
   });
   
   $(".main-navigation .main-category .has-sub-menu").hover(function(){
+
+    var windowWidth = window.innerWidth;
+
     var context = $(this).parent().children();
+
+    
+
     var count = context.children('aside').length;
-    var widthas = count*220;
+    var widthas = count*200;
     $(this).parent().children('.sub-menu').width(widthas);
     var leftmenu = $(this).parent().children('.sub-menu');
-    if(count > 3){
-      var widthleft =0 - ((count/2)*150);
+    if(count >= 3){
+      var widthleft =0 - ((count/3)*160);
       leftmenu.css('left', widthleft);
     }
   });

@@ -314,26 +314,22 @@ header .search_form .header-search-link ul li:last-child:after {
   height: auto;
   padding-bottom: 10px;
 
-  
+  transition: visibility 0s, opacity 1.5s linear;
+  opacity: 1;
 }
 .main-navigation .main-category .sub-menu:hover {
   visibility: visible;
   height: auto;
   padding-bottom: 10px;
-
-  transition:max-height 0.25s ease-in-out;
 }
 .main-navigation .main-category .sub-menu.left-menu {
   left: -300px;
 }
 .main-navigation .main-category .sub-menu.left-menu aside {
-  width: 210px;
-}
-.main-navigation .main-category .sub-menu {
-  top: 41px;
+  width: 190px;
 }
 .main-navigation .main-category .sub-menu aside {
-  width: 210px;
+  width: 190px;
   float: left;
   margin-right: 4px;
   margin-left: 4px;
