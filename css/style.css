@@ -313,9 +313,6 @@ header .search_form .header-search-link ul li:last-child:after {
   visibility: visible;
   height: auto;
   padding-bottom: 10px;
-
-  transition: visibility 0s, opacity 1.5s linear;
-  opacity: 1;
 }
 .main-navigation .main-category .sub-menu:hover {
   visibility: visible;
@@ -328,6 +325,7 @@ header .search_form .header-search-link ul li:last-child:after {
 .main-navigation .main-category .sub-menu.left-menu aside {
   width: 190px;
 }
+
 .main-navigation .main-category .sub-menu aside {
   width: 190px;
   float: left;
